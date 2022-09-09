@@ -1,7 +1,6 @@
 
 /*Background (Imagen de fondo de la pagina)----------------------------------------------------------------*/
 body {
-    heigh:675px;
     background-image: url("img/Background.jpg");
     background-size: 96rem;
     
@@ -21,10 +20,19 @@ body {
   justify-content: left;
 }
 
+/*Mision----------------------------------------------------------------------------------------------------*/
+#mision {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#mision {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
  
-
-
-
 
 
 
@@ -37,7 +45,7 @@ body {
     margin-bottom: 20px;
   }
   .wrapper {
-    width: 80%;
+    width: 97%;
     margin: auto;
     overflow:hidden;
   }
