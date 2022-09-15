@@ -8,7 +8,7 @@ body {
   }
 
   body {
-    background-color: #5D1507;
+    background-color: #84031d;
     background-size: 96rem;
     background-repeat: no-repeat;
   }
@@ -41,7 +41,6 @@ body {
   justify-content: center;
 }
  
-
 
 
   /*Barra de navegacion-----------------------------------------------------------------------------------*/
@@ -146,7 +145,7 @@ body {
   width: 50px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 1000;
-  background-color: rgb(127, 206, 255);
+  background-color: rgb(186, 38, 12);
   border-radius: 30px;
   padding: 20px 120px;
   color: black;
@@ -160,17 +159,13 @@ body {
 
 .btn:hover{
   background-color: transparent;
-  border: 2px solid rgb(127, 206, 255);
-  color: rgb(127, 206, 255);
+  border: 2px solid rgb(186, 38, 12);
+  color: rgb(0, 0, 0);
 }
-
-
 
 
 /*footer----------------------------------------------------------------------------------------------------*/
 
-
-/*Pie de Pagina*/
 .pie-pagina{
   width: 100%;
   background-color: #0a141d;
