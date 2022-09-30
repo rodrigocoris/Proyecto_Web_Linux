@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sesion.css"/>
+    <title>iniciar sesion</title>
+</head>
+
+<body>
+    <section id="content">
+    <h1>Registro de datos</h1>
+    <form action="sesion.php" method="Post">
+        <p>
+            <label for="color">Color: </label>
+            <input type="text" name="color" id="color" required="obligatorio" placeholder="Escribe tu color">
+
+        </p>
+
+        <p>
+            <label for="marca" class="colocar_marca">Marca: </label>
+            <input type="text" name="marca" id="marca" required="obligatorio" placeholder="Escribe tu marca">
+        </p>
+
+        <p>
+            <label for="modelo" class="colocar_modelo">Modelo: </label>
+            <input type="text" name="modelo" id="modelo" required="obligatorio" placeholder="Escribe tu modelo">
+        </p>
+
+        <p>
+            <label for="precio" class="colocar_precio">Precio: </label>
+            <input type="number" name="precio" id="precio" required="obligatorio" placeholder="Escribe el precio">
+        </p>
+
+        <p>
+            <label for="transmision" class="colocar_transmision">Transmision: </label>
+            <input type="text" name="transmision" id="transmision" required="obligatorio" placeholder="Escribe la transmision">
+        </p>
+        
+        <button class="btn" type="submit" name="registar" id="registrar" > <p><h4>Registrarse</h4></p></button>
+       <!--<button type="submit" name="registar" id="registrar"> <p>Registar Aqui </p></button> --> 
+
+    </form>
+    </section>
+
+</body>
+
+</html>

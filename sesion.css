@@ -1,0 +1,45 @@
+body{
+    background-color: cornflowerblue;
+}
+
+
+#content{
+   
+    text-align: center;
+    min-height: 200px;
+    width: 1000px;
+    background-color: azure;
+    padding: 50px;
+    /*Centar el cuadro*/
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/*boton de iniciar sesion----------------------------------------------------------------------------------------------------*/
+.btn{
+    display: block;
+    width: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1000;
+    background-color: cornflowerblue;
+    border-radius: 30px;
+    padding: 10px 80px;
+    color: black;
+    text-decoration: none;
+    
+  }
+  
+  .btn {/*centar el boton*/
+    display: block;
+    margin: auto;
+  }
+  
+  .btn:hover{
+    background-color: transparent;
+    border: 2px solid cornflowerblue;
+    color: rgb(0, 0, 0);
+  }
+  
