@@ -5,12 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="sesion.css"/>
+    <link rel="icon" href="img/Logos/carro-deportivo.png">
     <title>iniciar sesion</title>
 </head>
 
 <body>
+
+    <!--Barra de navegacion----------------------------------------------------------------->
+<header>
+    <section class="wrapper">
+          <nav>
+              <ul>
+                    <br>
+                  <li><img src = "img//Logos/Logo.png"  height="50" ></li>
+                  <li><a  href="index.html">Inicio</a></li>
+                  <li><a href="inicio de sesion.html">Registar Auto</a></li>
+                  <li><a target="_blank" href="https://www.youtube.com/">Cuenta</a></li>
+                  <li><a href="#">Autos</a></li>
+                  <li><a href="#">Acerca de</a></li>
+                  <li><a href="#">Contacto</a></li>
+                  <li><a href="#">Carrito</a></li>
+              </ul>           
+           </nav>
+    </section>
+</header>
+
+<!--Campos de texto---------------------------------------------------------------------->
     <section id="content">
-    <h1>Registro de datos</h1>
+    <p><img src="img/Logos/Logo.png" width="150px" height="60px"></p>
+    <h1><p> Registrar automovil</p></h1>
+
     <form action="sesion.php" method="Post">
         <p>
             <label for="color">Color: </label>
@@ -38,7 +62,7 @@
             <input type="text" name="transmision" id="transmision" required="obligatorio" placeholder="Escribe la transmision">
         </p>
         
-        <button class="btn" type="submit" name="registar" id="registrar" > <p><h4>Registrarse</h4></p></button>
+        <button class="btn" type="submit" name="registar" id="registrar" ><p><h3>Registrar</h3></p></button>
        <!--<button type="submit" name="registar" id="registrar"> <p>Registar Aqui </p></button> --> 
 
     </form>
