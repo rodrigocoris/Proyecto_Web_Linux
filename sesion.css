@@ -10,8 +10,9 @@ body{
   margin: auto;
 }
 
-.contenedor-imagenes img:first-child {
-  margin-right: 10px;
+.contenedor-imagenes  img:first-child{/*separacion de imagenes*/
+  margin-right: 75px;
+  margin-left: 40px;
   
 }
 
@@ -54,7 +55,7 @@ body{
     text-decoration: none;
   }
   nav ul li:hover {
-    background: #FF0000;
+    background: #1b5ca1;
   }
   .contenido {
     padding-top: 80px;
@@ -73,7 +74,7 @@ body{
     padding: 20px;
     /*Centar el cuadro*/
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
    
