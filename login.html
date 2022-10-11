@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css"/><!--Arreglar error con conexion a base de datos-->
+   <!--<link rel="stylesheet" href="http://localhost/Legendary Motorsport/proyecto paginas web\login.css"/>--> 
+    <link rel="icon" href="img/Logos/carro-deportivo.png">
+    <title>Login</title>
+</head>
+<body>
+    
+    <!--Barra de navegacion----------------------------------------------------------------->
+<header>
+    <section class="wrapper">
+          <nav>
+              <ul>
+                    <br>
+                  <li><img src = "img/Logos/Logo.png" height="50" ></li>
+                  <li><a  href="index.html">Inicio</a></li>
+                  <li><a  href="login.html">Login</a></li>
+                  <li><a href="inicio de sesion.html">Registar Auto</a></li>
+                  <li><a target="_blank" href="https://www.youtube.com/">Cuenta</a></li>
+                  <li><a href="#">Autos</a></li>
+                  <li><a href="#">Acerca de</a></li>
+                  <li><a href="#">Contacto</a></li>
+                  <li><a href="#">Carrito</a></li>
+              </ul>           
+           </nav>
+    </section>
+</header>
+
+<!--Campos de texto---------------------------------------------------------------------->
+    
+    <section id="content">
+
+        <p><img src="img/Logos/Logo.png"  width="125px" height="70px" ></p>
+
+        <div class="contenedor-imagenes">
+            <img src="img/Logos/usuario.png" width="50px" height="70px" >
+            <h1><p> Registro de usuario</p></h1>
+            <p><img src="img/Logos/usuario.png" width="50px" height="75px"></p>
+          </div><!--Argupacion de imagenes-->
+
+        <h1>Registra aqui tus datos personales</h1>
+        <br>
+        <form action="login.php" method="Post">
+            <p>
+                <label for="nombre">Nombre: </label>
+                <input type="text" name="nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+    
+            </p>
+    
+            <p>
+                <label for="correo" class="colocar_correo">Correo: </label>
+                <input type="email" name="correo" id="correo" required="obligatorio" placeholder="Escribe tu correo">
+            </p>
+    
+            <p>
+                <label for="Telefono" class="colocar_telefono">Telefono: </label>
+                <input type="number" name="telefono" id="telefono" required="obligatorio" placeholder="Escribe tu telefono">
+            </p>
+    
+            <p>
+                <label for="sexo" class="colocar_sexo">Sexo: </label>
+                <input type="text" name="sexo" id="sexo" required="obligatorio" placeholder="Escribe tu sexo">
+            </p>
+
+            <p>
+                <label for="contrasena" class="colocar_contrasena">Contrasena: </label>
+                <input type="password" name="contrasena" id="contrasena" required="obligatorio" placeholder="Escribe tu contrasena">
+            </p>
+            
+            <button class="btn" type="submit" name="registar" id="registrar" > <p><h4>Registrarse</h4></p></button>
+           <!--<button type="submit" name="registar" id="registrar"> <p>Registar Aqui </p></button> --> 
+    
+        </form>
+        </section>
+
+</body>
+</html>
