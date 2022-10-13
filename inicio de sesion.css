@@ -55,7 +55,7 @@ body{
     text-decoration: none;
   }
   nav ul li:hover {
-    background: #1b5ca1;
+    background-color: rgb(101, 33, 165);
   }
   .contenido {
     padding-top: 80px;

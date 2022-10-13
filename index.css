@@ -1,3 +1,4 @@
+/*Pagina responsiva-------------------------------------------------------------*/
 *{
   box-sizing: border-box;
 }
@@ -20,7 +21,6 @@ ul{ list-style: none;}
 li{ font-size: 1.25em;}
 
 /*boton principal--------------------------------------------------------------------*/
-
 button{
   font-size: 1.25em;
   font-weight: bold;
@@ -171,39 +171,7 @@ button:hover{
   font-size: 5vw;
 }
 
-footer{
-  background-color: rgb(230,230,230);
-}
 
-footer p{
-  margin: 0;
-  padding: 12px;
-  color: rgb(100,100,100);
-}
-
-footer .container{
-  height: 150px;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-}
-
-@media (min-width: 850px){
-  header{
-      position: fixed;
-      width: 100%;
-  }
-
-  header .container{
-      flex-direction: row;
-      justify-content: space-between;
-  }
-
-  header nav{
-      flex-direction: row;
-      padding-bottom: 0;
-      padding-right: 20px;
-  }
 
   #hero h1{
       font-size: 5em;
@@ -255,7 +223,7 @@ footer .container{
   }
 
   #nuestros-programas .carta{
-      padding: 95px;
+      padding: 110px;
       background-size: 100% 150px;
       background-repeat: no-repeat;
       background-position-y: 0;
@@ -318,10 +286,6 @@ footer .container{
       font-size: 2em;
   }
 
-  footer .container{
-      justify-content: flex-end;
-  }
-}
 
 @media (min-width: 1200px) {
   #caracteristicas{
@@ -330,7 +294,7 @@ footer .container{
 }
 
 
-/*segundo apartado---------------*/
+/*segundo apartado---------------------------------------------------------------*/
 #caracteristicas2{
   background-image: url("img/Logos/Background.jpg");
   background-repeat: no-repeat;
@@ -406,7 +370,7 @@ nav ul li a {
   text-decoration: none;
 }
 nav ul li:hover {
-  background: #1b5ca1;
+  background-color: rgb(101, 33, 165);
 }
 .contenido {
   padding-top: 80px;
