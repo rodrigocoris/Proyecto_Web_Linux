@@ -1,0 +1,155 @@
+*
+{
+	box-sizing: border-box;
+	font-family: sans-serif;
+	color:black;
+	
+}
+body
+{
+	margin: 0;
+    padding: 0;
+	background: #f2f2f2; 
+}
+.cajafuera
+{
+ width: 100%;
+    height: 100%;
+    display: grid;
+background: #3c539d;
+
+}
+.formulariocaja
+{
+	background-color: #AAB7B8;
+    width: 400px;
+    height: auto;
+    position: relative;
+    margin: auto;
+    padding: 1em;
+	border-radius: 5px;
+	color:white;
+	/* border:0.1em solid black; */
+}
+
+input 
+{
+	display: block;
+	text-align: left;
+	box-sizing: border-box;
+}
+
+.cajaentradatexto{
+    width: 80%;
+    padding: 10px;
+	font-size:1em;
+	border-radius:5px;
+	border:1px solid black;
+	color:black;
+	font-weight: bold;
+}
+
+.formtitulo
+{
+	font-size:2em;
+	font-weight: bold;
+	padding-bottom:0.8em;
+	color:black;
+}
+
+a
+{
+	text-decoration: none;
+	cursor:pointer;
+	color:#1A3A83;
+		font-weight: bold;
+}
+
+.afcheckbox1
+{
+	margin-top:5%;
+	margin-left:10%;
+}
+.botonenviar
+{
+    width: 80%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin-top: 10px;
+    border: 0;
+    outline: none;
+    border-radius: 10px;
+	border:1px solid black;
+	font-size:16px;
+	color:white;
+	background-color: #6D26D3;
+	text-align:center;
+	margin-top:15%;
+	
+	font-weight: bold;
+}
+
+img
+{
+	width: 150px;
+}
+
+.textoscajas
+{
+	margin-left:8%;
+	font-weight: bold;
+	margin-top:2%;
+	margin-bottom:2%;
+	color:black
+}
+.autor
+{
+	margin-top:5%;
+	color:black;
+}
+
+/*Barra de navegacion-----------------------------------------------------------------------------------*/
+* {
+    padding: 0;
+    margin: 0;
+  }
+  p {
+    margin-bottom: 20px;
+  }
+  .wrapper {
+    width: 97%;
+    margin: auto;
+    overflow:hidden;
+  }
+  header {
+    background: rgba(0,0,0,0.9);
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+  }
+  
+  nav {
+    float: left; /* Desplazamos el nav hacia la izquierda */
+  }
+  nav ul {
+    list-style: none;
+    overflow: hidden; /* Limpiamos errores de float */
+  }
+  nav ul li {
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  nav ul li a {
+    display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+  }
+  nav ul li:hover {
+    background-color: rgb(101, 33, 165);
+  }
+  .contenido {
+    padding-top: 80px;
+  }
