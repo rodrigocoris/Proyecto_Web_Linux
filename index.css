@@ -146,16 +146,16 @@ button:hover{
 #final{
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   text-align: center;
   background-color: rgb(30,30,30);
   color: white;
-  height: 80vh;
+  height: 110vh;
 }
 
 #final h2{
-  font-size: 9vw;
+  font-size: 20vw;
+  padding: 70px;
 }
 
 #final button{
@@ -168,12 +168,11 @@ button:hover{
 #final2{
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: right;
   text-align: right;
-  background-color: rgb(205, 35, 35);
+  background-color: rgb(101, 33, 165);
   color: wheat;
-  height:150vh;
+  height:130vh;
 
 }
 
@@ -183,8 +182,8 @@ button:hover{
 
 #final2 button{
   font-size: 5vw;
-  padding: 40px 100px;
-  height: 100px;
+
+
 }
 
 
@@ -328,16 +327,22 @@ button:hover{
 }
 
 
+
+
 /*segundo apartado---------------------------------------------------------------*/
 #caracteristicas2{
   background-image: url("img/Logos/Background.jpg");
   background-repeat: no-repeat;
   background-size: 650px 475px;
-  background-position: calc(100vw - 500px) 120px;
+  background-position: calc(70vw - 200px) 120px;
+  background-position-x: 500px;
+  background-position-y: 100px;
+  
 }
 
 #caracteristicas2 .container2{
   text-align: initial;
+  display: flex;
 }
 
 #caracteristicas2 ul{
