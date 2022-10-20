@@ -14,7 +14,7 @@ $filas=mysqli_num_rows($resultado);
 //validar con 1 y 0 
 if ($filas>0) {
     echo "Autenticacion Exitosa";
-    header("Location: index.html");
+    header("Location: productos.html");
 }
 else{
     echo "Error en la autenticacion";
