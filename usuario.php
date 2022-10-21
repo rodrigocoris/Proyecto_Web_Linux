@@ -7,18 +7,31 @@ $txtpassword=$_POST['txtpassword'];
 //conectar a la base de datos
 $con=mysqli_connect("localhost", "root", "", "formulariosesion");
 $consulta="SELECT * FROM loginini WHERE correo= '$txtusuario' and contrasena='$txtpassword' ";
-$resultado=mysqli_query($con, $consulta);
 
 $filas=mysqli_num_rows($resultado);
 
-//validar con 1 y 0 
+//manera 1----------------------------------------------------
+//validar con 1 y 0 para saber si encuentra o no la base de datos.
 if ($filas>0) {
     echo "Autenticacion Exitosa";
-    header:("Location index.html");
+    header("Location index.html");
 }
 else{
     echo "Error en la autenticacion";
 }
+
+//manera 2-----------------------------------------------------
+/*segunda manera de enlazar la base de datos
+
+if($rows=mysqli_fetch_array($resultado)){
+    Session_start();
+    $_SESSION['nombre']=$nombre;
+    header("Location index.html");
+}else{
+    header("Location usuario.html");
+}
+*/
+
 
 mysqli_free_result($resultado);
 mysqli_close($con);
