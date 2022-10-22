@@ -14,10 +14,11 @@ $filas=mysqli_num_rows($resultado);
 //validar con 1 y 0 para saber si encuentra o no la base de datos.
 if ($filas>0) {
     echo "Autenticacion Exitosa";
-    header("Location index.html");
+    header("Location productos.html");
 }
 else{
     echo "Error en la autenticacion";
+    header("Location admin.html");
 }
 
 //manera 2-----------------------------------------------------
