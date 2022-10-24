@@ -550,3 +550,550 @@ padding: 25px;
   }
   
  
+
+
+
+
+
+  /*Segundo css de refrencia*/
+
+  *{
+    box-sizing: border-box;
+  }
+  
+  html{
+    scroll-behavior: smooth;
+  }
+  
+  body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+  }
+  
+  /*Estilos de todos los h1 y letras--------------------------------------------------*/
+  h1{ font-size: 3.5em;}
+  h2{ font-size: 2.7em;}
+  h3{ font-size: 2em;}
+  p{ font-size: 1.25em;}
+  ul{ list-style: none;}
+  li{ font-size: 1.25em;}
+  
+  /*boton principal--------------------------------------------------------------------*/
+  button{
+    font-size: 1.25em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 2px solid rgba(0,0,0,0.3);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    color: white;
+    background-color: blueviolet;
+  }
+  
+  button:hover{
+    background-color: rgb(101, 33, 165);
+  }
+  
+  .container{
+    max-width: 1400px;
+    margin: auto;
+  }
+  
+  .color-acento{ color:blueviolet; }
+  
+  
+  
+  /*primera parte de la pagina-------------------------------------------------------------------------*/
+  #hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("img/Autos/bmw\ de\ Juca.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  
+  #hero h1{
+    color: white;
+  }
+  
+  #hero h2{
+    color: white;
+    text-align: center;
+  }
+  
+  
+  #hero h4{
+    color: white;
+  }
+  
+  #hero button{
+    font-size: 1.75em;
+  }
+  /*contenido de la primera seccion  ----------------------------------------------*/
+  #somos-proya .container{
+    text-align: center;
+    padding: 75px 12px;
+  }
+  
+  
+  /*  seccion de coches-----------------------------------------------------------*/
+  
+  #nuestros-programas{
+    background-color: rgb(30,30,30);
+    color: white;
+    text-align: center;
+  
+  }
+  
+  #nuestros-programas .container{
+    padding: 75px 300px;
+  }
+  
+  
+  #nuestros-programas h2{
+    margin-top: 500;
+    font-size: 3.2em;
+  }
+  
+  #nuestros-programas h3{
+    margin-top: 70px;
+    font-size: 1.6em;
+  }
+  
+  /*Alinear los textos--------------*/
+  #nuestros-programas h4{
+    margin-top: 2px;
+   
+  }
+  
+  
+  /*alineacion de cuadros de coches-------------*/
+  #nuestros-programas .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 500px;
+    margin: 20px;
+    border-radius: 15px;
+  }
+  
+  
+  
+  
+  /*carateristicas 2 -----------------------------------------------*/
+  
+  #caracteristicas .container{
+    text-align: center;
+    padding: 200px 12px;
+  }
+  
+  #caracteristicas li{
+    margin: 16px 0px;
+    font-weight: bold;
+  }
+  
+  #final{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(30,30,30);
+    color: white;
+    height: 110vh;
+  }
+  
+  #final h2{
+    font-size: 20vw;
+    padding: 70px;
+  }
+  
+  #final button{
+    font-size: 5vw;
+  }
+  
+  
+  
+  
+  #final2{
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    text-align: right;
+    background-color: rgb(101, 33, 165);
+    color: wheat;
+    height:130vh;
+  
+  }
+  
+  #final2 h4{
+    font-size: 9vw;
+  }
+  
+  #final2 button{
+    font-size: 5vw;
+  
+  
+  }
+  
+  
+  
+    #hero h1{
+        font-size: 5em;
+    }
+  
+    #somos-proya .container{
+        display: flex;
+        justify-content: space-evenly;
+    }
+  
+    #somos-proya .texto{
+        width: 50%;
+        max-width: 600px;
+        text-align: initial;
+        padding-left: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+  
+    #somos-proya h2{
+        margin-top: 0px;
+    }
+  
+    #somos-proya .img-container{
+        background-image: url("img/Autos/moto\ de\ ferrari.jpg");
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        width: 700px; 
+    }
+  
+  
+  
+    #nuestros-programas .programas{
+        display: flex;
+        justify-content: center;
+        
+    }
+  
+  
+  
+    #nuestros-programas h2{
+        font-size: 4em;
+        
+    }
+  
+    #nuestros-programas h3{
+        margin-top: 80px;
+        font-size: 2.5em;
+    }
+  
+  
+  /*campos de texto*/
+    #nuestros-programas h4{
+      font-size: 1.0em;/*cambiar el tamano de letra*/
+      height: 50x;
+      width: 300px; 
+  }
+  
+  
+  
+  /*boton de coches-------------*/
+  #nuestros-programas p{
+    padding: 25px;
+  }
+    
+  
+  /*fondo de coches-------------------*/
+    #nuestros-programas .carta{
+        padding: 30px;
+        background-size: 100% 150px;
+        background-repeat: no-repeat;
+        background-position-y: 0;
+        background-color: rgba(50, 50, 50, 1);
+        box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+        
+    }
+  
+  
+  
+  
+    
+    .carta:first-child{
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url("img/Autos/bmw 4.jpg");
+  
+    }
+  
+    .carta:nth-child(2){
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url("img/Autos/audir8.jpg");
+    }
+  
+    .carta:nth-child(3){
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url("img/Autos/Ferrari.jpg");
+  
+    }
+  
+  
+    /*Mision y vision-------------------------------------------------------------------------*/
+    #caracteristicas{
+        background-image: url("img/Autos/BMW.jpg");
+        background-repeat: no-repeat;
+        background-size: 800px 500px;
+        background-position: calc(100vw - 500px) 120px;
+    }
+  
+    #caracteristicas .container{
+        text-align: initial;
+    }
+  
+    #caracteristicas ul{
+        margin-left: 100px;
+    }
+  
+  
+  
+  
+  
+  @media (min-width: 1200px) {
+    #caracteristicas{
+        background-position-x: calc(100vw - 800px);
+    }
+  }
+  
+  
+  
+  
+  /*segundo apartado---------------------------------------------------------------*/
+  #caracteristicas2{
+    background-image: url("img/Logos/Background.jpg");
+    background-repeat: no-repeat;
+    background-size: 650px 475px;
+    background-position: calc(70vw - 200px) 120px;
+    background-position-x: 500px;
+    background-position-y: 100px;
+    
+  }
+  
+  #caracteristicas2 .container2{
+    text-align: initial;
+    display: flex;
+  }
+  
+  #caracteristicas2 ul{
+    margin-left: 100px;
+  }
+  
+  
+  #final h2{
+    font-size: 5em;
+  }
+  
+  #final button{
+    font-size: 2em;
+  }
+  
+  
+  
+  #final2 h4{
+    font-size: 5em;
+  }
+  
+  #final2 button{
+    font-size: 2em;
+  }
+  
+  footer .container2{
+    justify-content: flex-end;
+  }
+  
+  
+  @media (min-width: 1200px) {
+  #caracteristicas2{
+    background-position-x: calc(100vw - 800px);
+  }
+  }
+  
+  
+  /*Barra de navegacion-----------------------------------------------------------------------------------*/
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  p {
+    margin-bottom: 20px;
+  }
+  .wrapper {
+    width: 97%;
+    margin: auto;
+    overflow:hidden;
+  }
+  header {
+    background: rgba(0,0,0,0.9);
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+  }
+  
+  nav {
+    float: left; /* Desplazamos el nav hacia la izquierda */
+  }
+  nav ul {
+    list-style: none;
+    overflow: hidden; /* Limpiamos errores de float */
+  }
+  nav ul li {
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  nav ul li a {
+    display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+  }
+  nav ul li:hover {
+    background-color: rgb(101, 33, 165);
+  }
+  .contenido {
+    padding-top: 80px;
+  }
+  
+  
+  /*footer----------------------------------------------------------------------------------------------------*/
+  
+  .pie-pagina{
+    width: 100%;
+    background-color: #0a141d;
+  }
+  .pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+  }
+  .pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+  }
+  .pie-pagina .grupo-1 .box h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+  }
+  .pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+  }
+  .pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+  }
+  .pie-pagina .grupo-1 .red-social a:hover{
+    color: aqua;
+  }
+  .pie-pagina .grupo-2{
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+  }
+  .pie-pagina .grupo-2 small{
+    font-size: 15px;
+  }
+  @media screen and (max-width:800px){
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+  }
+  
+  /*Slider--------------------------------------------------------------------------------------------------*/
+  .slider{
+    width: 50%;
+    height: 400px;
+    overflow: hidden;
+  }
+  
+  .slider {/*centar el slider*/
+    display: block;
+    margin: auto;
+  }
+  
+  .slider ul{
+    display: flex;
+    animation: cambio 15s infinite
+    alternate linear;
+    width: 400%;
+  }
+  
+  .slider li {
+    width: 100%;
+    list-style: none;
+  }
+  
+  .slider img{
+    width: 100%;
+    height: 100%;
+  }
+  
+  @keyframes cambio {
+    0%{margin-left: 0%;}
+    20%{margin-left: 0%;}
+  
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+  
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+  
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+  
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+    
+  }
