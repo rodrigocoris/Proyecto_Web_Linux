@@ -18,6 +18,7 @@ if ($filas>0) {
 }
 else{
     echo "Error en la autenticacion";
+    header("Location: admin.html");
 }
 
 mysqli_free_result($resultado);

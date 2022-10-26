@@ -32,11 +32,13 @@ $inser = "INSERT INTO loginini(id, nombre, correo, telefono, sexo, contrasena)
     $ir=mysqli_query($con,$inser);
 
     if($ir){
+        header("Location: admin.html");
         echo "se ha registrado con exito";
 
     }else{
 
         echo "hay un error";
+        header("Location: loguin.html");
     }
 
 
