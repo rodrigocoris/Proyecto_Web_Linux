@@ -1,0 +1,125 @@
+body{
+    background-color: rgb(5, 31, 80);
+}
+
+*{box-sizing:border-box;}
+
+/*Argupacion de imagenes de formulario*/
+.contenedor-imagenes {
+  display: flex;
+  margin: auto;
+}
+
+.contenedor-imagenes  img:first-child{/*separacion de imagenes*/
+  margin-right: 75px;
+  margin-left: 40px;
+  
+}
+
+/*Barra de navegacion-----------------------------------------------------------------------------------*/
+* {
+    padding: 0;
+    margin: 0;
+  }
+  p {
+    margin-bottom: 20px;
+  }
+  .wrapper {
+    width: 97%;
+    margin: auto;
+    overflow:hidden;
+  }
+  header {
+    background: rgba(0,0,0,0.9);
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+  }
+  
+  nav {
+    float: left; /* Desplazamos el nav hacia la izquierda */
+  }
+  nav ul {
+    list-style: none;
+    overflow: hidden; /* Limpiamos errores de float */
+  }
+  nav ul li {
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  nav ul li a {
+    display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+  }
+  nav ul li:hover {
+    background-color: rgb(101, 33, 165);
+  }
+  .contenido {
+    padding-top: 80px;
+  }
+  
+
+/*campos de texto-----------------------------------------------------------------------*/
+
+#content{
+   
+    text-align: center;
+    color: white;
+    min-height: 200px;
+    width: 500px;
+    background-color: rgb(33, 64, 114);
+    padding: 20px;
+    /*Centar el cuadro*/
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+ 
+}
+/*estilos de las cajas de texto y letras*/
+form label{
+	width:90px;
+	font-weight:bold;
+	display:inline-block;
+}
+
+/*Cajas de texto redondeadas*/
+form input[type="text"],
+form input[type="number"]{
+	width:190px;
+	padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:5px 0;
+	display:inline-block;
+}
+
+
+/*boton de iniciar sesion----------------------------------------------------------------------------------------------------*/
+.btn{
+    font-family: Arial, Helvetica, sans-serif ;
+    font-weight: 100;
+    background-color: rgb(5, 31, 80);
+    border-radius: 18px;
+    padding: 2px 60px;
+    color: white;
+    text-decoration: none;
+    
+  }
+  
+  .btn {/*centar el boton*/
+    display: block;
+    margin: auto;
+  }
+  
+  .btn:hover{
+    background-color: transparent;
+    border: 2px solid cornflowerblue;
+    color: white;
+  }
+  
