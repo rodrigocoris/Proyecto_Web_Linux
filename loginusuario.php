@@ -6,19 +6,20 @@ $txtpassword=$_POST['txtpassword'];
  
 //conectar a la base de datos
 $con=mysqli_connect("localhost", "root", "", "formulariosesion");
-$consulta="SELECT * FROM loginini WHERE correo= '$txtusuario' and contrasena='$txtpassword' ";
+$consulta="SELECT * FROM formusuario WHERE correo= '$txtusuario' and contrasena='$txtpassword' ";
+$resultado=mysqli_query($con, $consulta);
 
 $filas=mysqli_num_rows($resultado);
 
 //manera 1----------------------------------------------------
 //validar con 1 y 0 para saber si encuentra o no la base de datos.
 if ($filas>0) {
-    echo "Autenticacion Exitosa";
-    header("Location productos.html");
+    header("Location: productos.html");
+
 }
 else{
-    echo "Error en la autenticacion";
-    header("Location admin.html");
+    header("Location: loginusuario.html");
+
 }
 
 //manera 2-----------------------------------------------------

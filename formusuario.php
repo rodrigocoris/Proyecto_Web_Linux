@@ -26,19 +26,19 @@ $contrasena = $_POST["contrasena"];
 
 //Consulta en la base de datos
 
-$inser = "INSERT INTO loginini(id, nombre, correo, telefono, sexo, contrasena)
+$inser = "INSERT INTO formusuario(id, nombre, correo, telefono, sexo, contrasena)
     values ('0', '$nombre','$correo','$telefono','$sexo','$contrasena')";
 
     $ir=mysqli_query($con,$inser);
 
     if($ir){
-        header("Location: admin.html");
+        header("Location: loginusuario.html");
         echo "se ha registrado con exito";
 
     }else{
-
-        echo "hay un error";
         header("Location: loguin.html");
+        echo "hay un error";
+       
     }
 
 

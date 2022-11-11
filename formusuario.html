@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <!--<link rel="stylesheet" href="login.css"/> -->   <!--Arreglar error con conexion a base de datos-->
-   <link rel="stylesheet" href="http://localhost/Legendary Motorsport/proyecto paginas web\login.css"/> 
+   <!--<link rel="stylesheet" href="formusuario.css"/> -->   <!--Arreglar error con conexion a base de datos-->
+   <link rel="stylesheet" href="http://localhost/Legendary Motorsport/proyecto paginas web\formusuario.css"/> 
     <link rel="icon" href="img/Logos/carro-deportivo.png">
-    <title>Login</title>
+    <title>Registro de usuario</title>
 </head>
 <body>
     
-    <!--Barra de navegacion----------------------------------------------------------------->
+<!--Barra de navegacion----------------------------------------------------------------->
 <header>
     <section class="wrapper">
           <nav>
@@ -19,17 +19,19 @@
                     <br>
                   <li><img src = "img/Logos/Logo 2.png" height="50" ></li>
                   <li><a href="index.html">Inicio</a></li>
-                  <li><a href="admin.html">Iniciar Sesion</a></li>
-                  <li><a href="login.html">Registrarse</a></li>
-                  <li><a href="inicio de sesion.html">Registar Auto</a></li>
-                  <li><a href="usuario.html">Administrador</a></li>
+                  <li><a href="loginusuario.html">Iniciar Sesion</a></li>
+                  <li><a href="formusuario.html">Registrarse</a></li>
+                  <li><a href="formproductos.html">Registar Auto</a></li>
+                  <li><a href="loginadmin.html">Administrador</a></li>
                   <li><a href="autos.html">Autos en exhibicion</a></li>
                   <li><a href="proveedores.html">Proveedores</a></li>
                   <li><a href="agencia.html">Agencia</a></li>
+                  <li><a href="pruebas.html">pruebas</a></li>
               </ul>           
            </nav>
     </section>
 </header>
+    
 
 <!--Campos de texto---------------------------------------------------------------------->
     
@@ -45,7 +47,7 @@
 
         <h1>Registra aqui tus datos personales</h1>
         <br>
-        <form action="login.php" method="Post">
+        <form action="formusuario.php" method="Post">
             <p>
                 <label for="nombre">Nombre: </label>
                 <input type="text" name="nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">

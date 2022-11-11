@@ -14,10 +14,6 @@ if(!$con){
     echo "conectado..";
 }
 
-
-//Usuario
-//iformacion a agregar
-
 $color = $_POST["color"];
 $marca = $_POST["marca"];
 $modelo = $_POST["modelo"];
@@ -33,16 +29,13 @@ $inser = "INSERT INTO formproductos(id, color, marca, modelo, precio, transmisio
     $ir=mysqli_query($con,$inser);
 
     if($ir){
-        echo "se ha registrado con exito";
         header("Location: index.html");
+        echo "se ha registrado con exito";
 
     }else{
-
-        echo "hay un error";
         header("Location: productos.html");
+        echo "hay un error";
     }
-
-
 
     mysqli_close($con)//cerrar base de datos
 ?>

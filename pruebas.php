@@ -26,7 +26,7 @@ $transmision = $_POST["transmision"];
 
 //Consulta en la base de datos
 
-$inser = "INSERT INTO usuario(id, color, marca, modelo, precio, transmision)
+$inser = "INSERT INTO pruebas(id, color, marca, modelo, precio, transmision)
     values ('0', '$color','$marca','$modelo','$precio','$transmision')";
 
     $ir=mysqli_query($con,$inser);
