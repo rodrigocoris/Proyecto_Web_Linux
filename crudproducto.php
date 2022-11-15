@@ -6,7 +6,7 @@
     $query=mysqli_query($con,$sql);
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
     <head>
         <title>Autos</title>
         <meta charset="UTF-8">
@@ -44,7 +44,7 @@
                     <div class="row"> 
                         
                         <div class="col-md-3">
-                           <a href="index.html"> <h2>Volver al inicio</h2></a>
+                           <a href="loginadmin.html"> <h2>Volver al login</h2></a>
                             <h2>Ingresar producto</h2>
                             <br>
                                 <form action="crudinsertar.php" method="POST">
@@ -56,18 +56,18 @@
                                     <input type="text" class="form-control mb-3" name="transmision" placeholder="Ingresar  transmision">
                                     <input type="text" class="form-control mb-3" name="imagen" placeholder="Ingresar imagen">
                                     
-                                    <input type="submit" class="btn btn-primary" >
+                                    <input type="submit" class="btn btn-outline-danger btn-lg" value="Registrar poducto">
                                 </form>
                         </div>
 
                         <div class="col-md-8">
                             <table class="table" >
-                                <thead class="table-success table-striped" >
+                                <thead class="table table-dark" >
                                     <tr>
                                         <th>Color</th>
-                                        <th>marca</th>
-                                        <th>modelo</th>
-                                        <th>precio</th>
+                                        <th>Marca</th>
+                                        <th>Modelo</th>
+                                        <th>Precio</th>
                                         <th>Transmision</th>
                                         <th>Imagen</th>
                                         <th></th>
@@ -86,8 +86,8 @@
                                                 <th><?php  echo $row['precio']?></th>  
                                                 <th><?php  echo $row['transmision']?></th>  
                                                 <th><?php  echo $row['imagen']?></th>    
-                                                <th><a href="crudactualizar.php?id=<?php echo $row['color'] ?>" class="btn btn-info">Editar producto</a></th>
-                                                <th><a href="crudeliminar.php?id=<?php echo $row['color'] ?>" class="btn btn-danger">Eliminar producto</a></th>                                        
+                                                <th><a href="crudactualizar.php?id=<?php echo $row['color'] ?>" class="btn btn-success">Editar producto</a></th>
+                                                <th><a href="crudeliminar.php?id=<?php echo $row['color'] ?>" class="btn btn-warning">Eliminar producto</a></th>                                        
                                             </tr>
                                         <?php 
                                             }

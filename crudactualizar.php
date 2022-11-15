@@ -11,7 +11,7 @@ $row=mysqli_fetch_array($query);
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
     <head>
         <title></title>
         <meta charset="UTF-8">
@@ -50,8 +50,10 @@ $row=mysqli_fetch_array($query);
     <body>
                 <div class="container mt-5">
                     <form action="crudupdate.php" method="POST">
-                    
-                                <input type="hidden" name="color" value="<?php echo $row['color']  ?>">
+                     
+                              <!--  <input type="hidden" name="color" value="<?php echo $row['color']  ?>">  -->
+                                <h1>Color:</h1>
+                                <input type="text" class="form-control mb-3" name="color" placeholder="color" value="<?php echo $row['color']  ?>">
                                 <h1>Marca:</h1>
                                 <input type="text" class="form-control mb-3" name="marca" placeholder="marca" value="<?php echo $row['marca']  ?>">
                                 <h1>Modelo:</h1>
@@ -63,7 +65,7 @@ $row=mysqli_fetch_array($query);
                                 <h1>Imagen:</h1>
                                 <input type="text" class="form-control mb-3" name="imagen" placeholder="imagen" value="<?php echo $row['imagen']  ?>">
                                 
-                            <input type="submit" class="btn btn-primary btn-block" value="Actualizar">
+                            <input type="submit" class="btn btn-outline-info btn-lg" value="Actualizar">
                     </form>
                     
                 </div>
