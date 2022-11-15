@@ -44,7 +44,7 @@
                     <div class="row"> 
                         
                         <div class="col-md-3">
-                           <a href="loginadmin.html"> <h2>Volver al login</h2></a>
+                           <a href="loginadmin.html"> <h2>Volver al inicio</h2></a>
                             <h2>Ingresar producto</h2>
                             <br>
                                 <form action="crudinsertar.php" method="POST">
