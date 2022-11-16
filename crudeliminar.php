@@ -3,9 +3,9 @@
 include("crudconexion.php");
 $con=conectar();
 
-$color=$_GET['id'];
+$id=$_GET['id'];
 
-$sql="DELETE FROM formproductos  WHERE color='$color'";
+$sql="DELETE FROM formproductos  WHERE id='$id'";
 $query=mysqli_query($con,$sql);
 
     if($query){

@@ -29,7 +29,7 @@ $inser = "INSERT INTO formproductos(id, color, marca, modelo, precio, transmisio
     $ir=mysqli_query($con,$inser);
 
     if($ir){
-        header("Location: index.html");
+        header("Location: crudproducto.php");
         echo "se ha registrado con exito";
 
     }else{
