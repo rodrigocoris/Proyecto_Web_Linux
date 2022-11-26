@@ -53,8 +53,45 @@ $query = mysqli_query($con, $sql);
                 </a>
                 <br>
                 <h1>Info Producto</h1>
+
+                
+<!-- Metodo de buscar-->
+                
+<?php
+if (!isset($_POST['buscar'])){$_POST['buscar'] = '';}
+?>
+
+<div class="container mt-50">
+<div class="col-12">
+
+<form method="POST" action="crudproducto.php">
+<div class="mb-3">
+<label class="form-label"><h1>Buscar auto</h1></label>
+<input type="text" class="form-control" id="buscar" name="buscar">
+</div>
+<button type="text" class="btn btn-primary">Buscar</button>
+</form>
+
+
+<div class="card col-12 mt-5">
+<div class="card-body">
+<!-- recuerda que si no te funciona con mysql_query tienes que cambiarlo por mysqli_query -->
+<?php $busqueda=mysqli_query($con,"SELECT * FROM formproductos WHERE id LIKE LOWER('%".$_POST["buscar"]."%') OR color LIKE LOWER('%".$_POST["buscar"]."%')  OR marca LIKE LOWER('%".$_POST["buscar"]."%')  OR modelo LIKE LOWER('%".$_POST["buscar"]."%') OR precio LIKE LOWER('%".$_POST["buscar"]."%') OR transmision LIKE LOWER('%".$_POST["buscar"]."%') OR imagen LIKE LOWER('%".$_POST["buscar"]."%')"); 
+$numero = mysqli_num_rows($busqueda); ?>
+<h4 class="card-tittle">Productos  (<?php echo $numero; ?>)</h4>
+<br>
+<?php while ($resultado = mysqli_fetch_assoc($busqueda)){ ?>
+<p class="card-tittle">Id: <?php echo $resultado["id"]; ?><br>Color: <?php echo $resultado["color"]; ?><br>Marca: <?php echo $resultado["marca"]; ?><br>Modelo: <?php echo $resultado["modelo"]; ?><br>Precio: <?php echo $resultado["precio"]; ?><br>Transmision: <?php echo $resultado["transmision"]; ?><br>Imagen: <?php echo $resultado["imagen"]; ?></p>
+<?php } ?>
+</div>
+</div>
+
+
+</div>
+</div>
                
-                <!--
+    </div>                
+<!--
                 <form action="crudinsertar.php" method="POST">
 
                     <input type="text" class="form-control mb-3" name="color" placeholder="Ingresar color">
@@ -108,7 +145,8 @@ $query = mysqli_query($con, $sql);
             </div>
         </div>
     </div>
-    
+
+
 </body>
 
 </html>
