@@ -51,8 +51,8 @@ $query = mysqli_query($con, $sql);
                     <a href="loginadmin.html" class="btn btn-light">Volver al inicio</a>
                     <br>
                 </a>
-                <br>
-                <h1>Info Producto</h1>
+               <!--     <br>
+           <h1>Info Producto</h1> -->  
 
                 
 <!-- Metodo de buscar-->
@@ -66,7 +66,7 @@ if (!isset($_POST['buscar'])){$_POST['buscar'] = '';}
 
 <form method="POST" action="crudproducto.php">
 <div class="mb-3">
-<label class="form-label"><h1>Buscar auto</h1></label>
+<label class="form-label"><h1>Buscar auto en la barra de busqueda</h1></label>
 <input type="text" class="form-control" id="buscar" name="buscar">
 </div>
 <button type="text" class="btn btn-primary">Buscar</button>
