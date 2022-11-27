@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(220, 33, 33);
+    background-color: rgb(57, 21, 120);
 }
 
 *{box-sizing:border-box;}
@@ -70,7 +70,7 @@ body{
     color: white;
     min-height: 200px;
     width: 500px;
-    background-color: rgb(33, 64, 114);
+    background-color: rgb(104, 101, 12);
     padding: 20px;
     /*Centar el cuadro*/
     position: absolute;
@@ -89,7 +89,9 @@ form label{
 
 /*Cajas de texto redondeadas*/
 form input[type="text"],
-form input[type="number"]{
+form input[type="number"],
+form input[type="email"],
+form input[type="password"]{
 	width:190px;
 	padding:3px 10px;
 	border:1px solid #f6f6f6;
@@ -104,7 +106,7 @@ form input[type="number"]{
 .btn{
     font-family: Arial, Helvetica, sans-serif ;
     font-weight: 100;
-    background-color: rgb(5, 31, 80);
+    background-color: rgb(7, 80, 102);
     border-radius: 18px;
     padding: 2px 60px;
     color: white;
@@ -119,7 +121,7 @@ form input[type="number"]{
   
   .btn:hover{
     background-color: transparent;
-    border: 2px solid cornflowerblue;
+    border: 2px solid rgb(29, 91, 206);
     color: white;
   }
   
