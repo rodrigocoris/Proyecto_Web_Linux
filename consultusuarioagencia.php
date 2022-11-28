@@ -2,7 +2,7 @@
 include("crudconexion.php");
 $con = conectar();
 
-$sql = "SELECT *  FROM formproductos";
+$sql = "SELECT *  FROM formusuario";
 $query = mysqli_query($con, $sql);
 ?>
 <!DOCTYPE html>
@@ -46,13 +46,13 @@ $query = mysqli_query($con, $sql);
         <div class="row">
 
             <div class="col-md-3">
-                <a href="loginadmin.html">
+                <a href="consultprodagencia.php">
                     
-                    <a href="loginadmin.html" class="btn btn-light">Volver al inicio</a>
+                    <a href="consultprodagencia.php" class="btn btn-light">Volver </a>
                     <br>
                 </a>
                    <br>
-           <h1>Info Producto</h1> 
+           <h1>Info Cliente</h1> 
 
                 
 <!-- Metodo de buscar
@@ -76,12 +76,10 @@ $query = mysqli_query($con, $sql);
                     <thead class="table table-dark">
                         <tr>
                             <th>Id</th>
-                            <th>Color</th>
-                            <th>Marca</th>
-                            <th>Modelo</th>
-                            <th>Precio</th>
-                            <th>Transmision</th>
-                            <th>Imagen</th>
+                            <th>Nombre</th>
+                            <th>Correo</th>
+                            <th>Telefono</th>
+                            <th>Sexo</th>
                             <th></th>
                             <th></th>
                         </tr>
@@ -93,14 +91,12 @@ $query = mysqli_query($con, $sql);
                         ?>
                             <tr>
                                 <th><?php echo $row['id'] ?></th>
-                                <th><?php echo $row['color'] ?></th>
-                                <th><?php echo $row['marca'] ?></th>
-                                <th><?php echo $row['modelo'] ?></th>
-                                <th><?php echo $row['precio'] ?></th>
-                                <th><?php echo $row['transmision'] ?></th>
-                                <th><?php echo $row['imagen'] ?></th>          
-                                <th><a href="crudeliminar.php?id=<?php echo $row['id'] ?>" class="btn btn-danger ">Eliminar producto</a></th>
-                                <th><a href="crudactualizar.php?id=<?php echo $row['id'] ?>" class="btn btn-dark">Editar producto</a></th>
+                                <th><?php echo $row['nombre'] ?></th>
+                                <th><?php echo $row['correo'] ?></th>
+                                <th><?php echo $row['telefono'] ?></th>
+                                <th><?php echo $row['sexo'] ?></th>        
+                                <th><a href="eliminarusuarioagencia.php?id=<?php echo $row['id'] ?>" class="btn btn-danger ">Eliminar cliente</a></th>
+                                <th><a href="actualizarusuarioagencia.php?id=<?php echo $row['id'] ?>" class="btn btn-dark">Editar cliente</a></th>
                             </tr>
                             </center>
                         <?php

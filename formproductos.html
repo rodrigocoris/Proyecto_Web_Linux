@@ -12,8 +12,8 @@
 
 <body>
     
-<!--Barra de navegacion----------------------------------------------------------------->
-<header>
+ <!--Barra de navegacion----------------------------------------------------------------->
+ <header>
     <section class="wrapper">
           <nav>
               <ul>
@@ -21,13 +21,10 @@
                   <li><img src = "img/Logos/Logo 2.png" height="50" ></li>
                   <li><a href="index.html">Inicio</a></li>
                   <li><a href="loginusuario.html">Iniciar Sesion</a></li>
-                  <li><a href="formusuario.html">Registrarse</a></li>
-                  <li><a href="formproductos.html">Registar Auto</a></li>
                   <li><a href="loginadmin.html">Administrador</a></li>
-                  <li><a href="autos.html">Autos en exhibicion</a></li>
-                  <li><a href="proveedores.html">Proveedores</a></li>
-                  <li><a href="agencia.html">Agencia</a></li>
-                  <li><a href="pruebas.html">pruebas</a></li>
+                  <li><a href="productos.html">Autos</a></li>
+                  <li><a href="loginproveedores.html">Proveedores</a></li>
+                  <li><a href="loginagencia.html">Agencia</a></li>
               </ul>           
            </nav>
     </section>
@@ -35,17 +32,22 @@
 
 <!--Campos de texto---------------------------------------------------------------------->
     <section id="content">
-
+        <br>
+        <br>
+        <br>
         <p><img src="img/Logos/Logo 2.png"  width="125px" height="70px" ></p>
-
+       
+      
+    
         <div class="contenedor-imagenes">
             <img src="img/Logos/rueda.png" width="50px" height="70px" >
-            <h1><p> Registrar autos</p></h1>
+            <h1><p> Registrar auto</p></h1>
             <p><img src="img/Logos/usuario.png" width="50px" height="75px"></p>
           </div><!--Argupacion de imagenes-->
     
 
     <form action="formproductos.php" method="Post"><!--conexion a base de datos-->
+        
         <p>
             <label for="color">Color: </label>
             <input type="text" name="color" id="color" required="obligatorio" placeholder="Escribe el color">
@@ -79,8 +81,12 @@
 
         <button class="btn" type="submit" name="registar" id="registrar" ><p><h3>Registrar</h3></p></button>
        <!--<button type="submit" name="registar" id="registrar"> <p>Registar Aqui </p></button> --> 
-
+       
     </form>
+    <br>
+       <a href="crudproducto.php">
+        <button class="btn" type="submit" name="registar" id="registrar" ><p><h3>Ver Productos</h3></p></button>
+    </a>
     
     </section>
 
