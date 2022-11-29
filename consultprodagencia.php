@@ -86,8 +86,8 @@ if (!isset($_POST['buscar'])){$_POST['buscar'] = '';}
 <form method="POST" action="consultprodagencia.php">
 <div class="mb-3">
     <br>
-<label class="form-label"><h1>Buscar Producto</h1></label>
-<input type="text" class="form-control" placeholder="Buscar Producto" id="buscar" name="buscar">
+<label class="form-label"><h1>Buscar Cliente</h1></label>
+<input type="text" class="form-control" placeholder="Buscar Cliente" id="buscar" name="buscar">
 </div>
 <button type="text" class="btn btn-primary">Buscar</button>
 </form>
@@ -98,7 +98,7 @@ if (!isset($_POST['buscar'])){$_POST['buscar'] = '';}
 <!-- recuerda que si no te funciona con mysql_query tienes que cambiarlo por mysqli_query -->
 <?php $busqueda=mysqli_query($con,"SELECT * FROM formusuario WHERE id LIKE LOWER('%".$_POST["buscar"]."%') OR nombre LIKE LOWER('%".$_POST["buscar"]."%')  OR correo LIKE LOWER('%".$_POST["buscar"]."%')  OR telefono LIKE LOWER('%".$_POST["buscar"]."%') OR sexo LIKE LOWER('%".$_POST["buscar"]."%') "); 
 $numero = mysqli_num_rows($busqueda); ?>
-<h4 class="card-tittle">Productos  (<?php echo $numero; ?>)</h4>
+<h4 class="card-tittle">Clientes:  (<?php echo $numero; ?>)</h4>
 <br>
 <?php while ($resultado = mysqli_fetch_assoc($busqueda)){ ?>
 <p class="card-tittle">Id: <?php echo $resultado["id"]; ?><br>Nombre: <?php echo $resultado["nombre"]; ?><br>Correo: <?php echo $resultado["correo"]; ?><br>Telefono: <?php echo $resultado["telefono"]; ?><br>Sexo: <?php echo $resultado["sexo"]; ?></p>

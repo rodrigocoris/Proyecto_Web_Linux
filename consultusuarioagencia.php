@@ -13,7 +13,7 @@ $query = mysqli_query($con, $sql);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
    <!-- <link href="crudproducto.css" rel="stylesheet"> -->
-     <link rel="stylesheet" href="http://localhost/Legendary Motorsport/proyecto paginas web\crudproducto.css" />
+     <link rel="stylesheet" href="http://localhost/Legendary Motorsport/proyecto paginas web\consultusuarioagencia.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="icon" href="img/Logos/carro-deportivo.png">
 </head>
@@ -52,7 +52,7 @@ $query = mysqli_query($con, $sql);
                     <br>
                 </a>
                    <br>
-           <h1>Info Cliente</h1> 
+           <h1><p style="color: #FFFFFF;"> Info Cliente</h1> </p> 
 
                 
 <!-- Metodo de buscar

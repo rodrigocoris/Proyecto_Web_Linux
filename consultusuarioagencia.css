@@ -1,0 +1,107 @@
+body, html {
+    height: 96%;
+  
+    background: url(img/Logos/fondo.jpg) ;
+    background-size: 100% 100%;
+  }
+  
+  
+  thead, tfoot {
+   
+    color: white;
+    text-shadow: 1px 1px 1px black;
+  }
+  
+  
+  tbody tr:nth-child(even) {
+    background-color: #6c6495;
+  }
+  
+  
+  
+  table {
+    background-color: #4d4979;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  table {
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+    margin: 0 0 1em 0;
+    caption-side: top;
+  }
+  caption, td, th {
+    padding: 0.3em;
+  }
+  th, td {
+    border-bottom: 1px solid #000;
+    border-right: 1px solid rgb(221, 206, 206);
+  }
+  th:lastchild, td:lastchild {
+     border-right: 0;
+  }
+  th {
+    width: 10%;
+  
+    
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  /*Barra de navegacion-----------------------------------------------------------------------------------*/
+  * {
+      padding: 0;
+      margin: 0;
+    }
+    p {
+      margin-bottom: 20px;
+    }
+    .wrapper {
+      width: 97%;
+      margin: auto;
+      overflow:hidden;
+    }
+    header {
+      background: rgba(0,0,0,0.9);
+      width: 100%;
+      position: fixed;
+      z-index: 10;
+    }
+    
+    nav {
+      float: left; /* Desplazamos el nav hacia la izquierda */
+    }
+    nav ul {
+      list-style: none;
+      overflow: hidden; /* Limpiamos errores de float */
+    }
+    nav ul li {
+      float: left;
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+    }
+    nav ul li a {
+      display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+      padding: 20px;
+      color: #fff;
+      text-decoration: none;
+    }
+    nav ul li:hover {
+      background-color: rgb(101, 33, 165);
+    }
+    .contenido {
+      padding-top: 80px;
+    }
