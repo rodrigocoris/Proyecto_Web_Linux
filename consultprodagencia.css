@@ -125,10 +125,13 @@ body, html {
 .btn {/*centar el boton*/
   display: block;
   margin: auto;
+  
 }
 
 .btn:hover{
   background-color: transparent;
   border: 2px solid rgb(255, 0, 0);
   color: white;
+  
 }
+

@@ -12,8 +12,8 @@ $query = mysqli_query($con, $sql);
     <title>Autos</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- <link href="crudproducto.css" rel="stylesheet"> -->
-    <link rel="stylesheet" href="http://localhost/Legendary Motorsport/proyecto paginas web\crudproducto.css" />
+    <!--<link href="crudproducto.css" rel="stylesheet"> -->
+     <link rel="stylesheet" href="http://localhost/Legendary Motorsport/proyecto paginas web\crudproducto.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="icon" href="img/Logos/carro-deportivo.png">
 </head>
@@ -48,11 +48,11 @@ $query = mysqli_query($con, $sql);
             <div class="col-md-3">
                 <a href="loginadmin.html">
                     
-                    <a href="loginadmin.html" class="btn btn-light">Volver al inicio</a>
+                <a href="loginadmin.html" class="btn type="submit" name="registar"><h2><p style="color: #FFFFFF;">Volver al inicio</h2> </p></a>
                     <br>
                 </a>
                    <br>
-           <h1>Info Producto</h1> 
+                   <h2><p style="color: white;">Info Producto</h2> </p> 
 
                 
 <!-- Metodo de buscar
@@ -73,15 +73,15 @@ $query = mysqli_query($con, $sql);
  -->
             <div class="col-md-8">
                 <table class="table table-hover  ">
-                    <thead class="table table-dark">
+                    <thead class="table table-white">
                         <tr>
-                            <th>Id</th>
-                            <th>Color</th>
-                            <th>Marca</th>
-                            <th>Modelo</th>
-                            <th>Precio</th>
-                            <th>Transmision</th>
-                            <th>Imagen</th>
+                        <th><p style="color: red;">Id</th></p>
+                        <th><p style="color: red;">Color</th></p>
+                        <th><p style="color: red;">Marca</th></p>
+                        <th><p style="color: red;">Modelo</th></p>
+                        <th><p style="color: red;">Precio</th></p>
+                        <th><p style="color: red;">Transmision</th></p>
+                        <th><p style="color: red;">Imagen</th></p>
                             <th></th>
                             <th></th>
                         </tr>
@@ -99,8 +99,8 @@ $query = mysqli_query($con, $sql);
                                 <th><?php echo $row['precio'] ?></th>
                                 <th><?php echo $row['transmision'] ?></th>
                                 <th><?php echo $row['imagen'] ?></th>          
-                                <th><a href="crudeliminar.php?id=<?php echo $row['id'] ?>" class="btn btn-danger ">Eliminar producto</a></th>
-                                <th><a href="crudactualizar.php?id=<?php echo $row['id'] ?>" class="btn btn-dark">Editar producto</a></th>
+                                <th><a href="crudeliminar.php?id=<?php echo $row['id'] ?>" class="btn"><h5><p style="color: #D81743  ;">Eliminar Producto</h5> </p></a></th>
+                                <th><a href="crudactualizar.php?id=<?php echo $row['id'] ?>" class="btn"><h5><p style="color:#2AC012  ;">Editar Producto</h5> </p></a></th>
                             </tr>
                             </center>
                         <?php

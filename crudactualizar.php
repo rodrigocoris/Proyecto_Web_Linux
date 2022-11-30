@@ -55,19 +55,20 @@ $row = mysqli_fetch_array($query);
            
         
             <input type="hidden" name="id" value="<?php echo $row['id']  ?>">
-            <h2>Color:</h2>
+            <h2><p style="color: white;">Color:</h2> </p>
             <input type="text" class="form-control-sm" name="color" placeholder="color" value="<?php echo $row['color']  ?>">
-            <h2>Marca:</h2>
+            <h2><p style="color: white;">Marca:</h2> </p>
             <input type="text" class="form-control-sm" name="marca" placeholder="marca" value="<?php echo $row['marca']  ?>">
-            <h2>Modelo:</h2>
+            <h2><p style="color: white;">Modelo:</h2> </p>
             <input type="text" class="form-control-sm" name="modelo" placeholder="modelo" value="<?php echo $row['modelo']  ?>">
-            <h2>Precio:</h2>
+            <h2><p style="color: white;">Precio:</h2> </p>
             <input type="text" class="form-control-sm" name="precio" placeholder="precio" value="<?php echo $row['precio']  ?>">
-            <h2>Transmision:</h2>
+            <h2><p style="color: white;">Transmision:</h2> </p>
             <input type="text" class="form-control-sm" name="transmision" placeholder="transmision" value="<?php echo $row['transmision']  ?>">
-            <h2>Imagen:</h2>
+            <h2><p style="color: white;">Imagen:</h2> </p>
             <input type="text" class="form-control mb-3" name="imagen" placeholder="imagen" value="<?php echo $row['imagen']  ?>">
-            <input type="submit" class="btn btn-info btn-lg" value="Actualizar producto">
+            <button type="text" class="btn type="submit" name="registar" id="registrar"><h5><p style="color: #BBD817   ;">Actualizar Producto</h5> </p></button>
+</form>
         </form>
 
     </div>

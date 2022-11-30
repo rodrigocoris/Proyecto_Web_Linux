@@ -12,7 +12,7 @@ $query = mysqli_query($con, $sql);
     <title>Autos</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+    <link href="consultprodprov.css" rel="stylesheet"> 
     <!-- <link rel="stylesheet" href="http://localhost/Legendary Motorsport/proyecto paginas web\crudproducto.css" />-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="icon" href="img/Logos/carro-deportivo.png">
@@ -47,28 +47,37 @@ $query = mysqli_query($con, $sql);
 
             <div class="col-md-3">
                 <a href="loginproveedores.html">
-                    
-                    <a href="loginproveedores.html" class="btn btn-light">Volver al inicio</a>
+                <a href="loginproveedores.html" class="btn type="submit" name="registar"><h2><p style="color: #FFFFFF;">Volver al inicio</h2> </p></a>
+                
                     <br>
                     <br>
                 </a>
                   <br>
-           <h2>Registrar Producto</h2> 
+                  <h2><p style="color: black;">Registrar Producto</h2> </p>
+                  <br>
+ 
 
                 
 <!-- Metodo de buscar-->
-           
+       
 <form action="crudinsertar.php" method="POST">
 
-<input type="text" class="form-control mb-3" name="color" placeholder="Ingresar color">
+<h2><p style="color: white;">Color:</h2> </p>
+<input type="text" class="form-control  mb-3" name="color" placeholder="Ingresar color">
+<h2><p style="color: white;">Marca:</h2> </p>
 <input type="text" class="form-control mb-3" name="marca" placeholder="Ingresar  marca">
+<h2><p style="color: white;">Modelo:</h2> </p>
 <input type="text" class="form-control mb-3" name="modelo" placeholder="Ingresar  modelo">
+<h2><p style="color: white;">Precio:</h2> </p>
 <input type="text" class="form-control mb-3" name="precio" placeholder="Ingresar  precio">
+<h2><p style="color: white;">Transmision:</h2> </p>
 <input type="text" class="form-control mb-3" name="transmision" placeholder="Ingresar  transmision">
+<h2><p style="color: white;">Imagen:</h2> </p>
 <input type="text" class="form-control mb-3" name="imagen" placeholder="Ingresar imagen">
-
-<input type="submit" class="btn btn-outline-danger btn-lg" value="Registrar poducto">
+<center>
+<button type="text" class="btn type="submit" name="registar" id="registrar"><h5><p style="color: #1789D8  ;">Agregar Producto</h5> </p></button>
 </form>
+<br>
 </div>
 </div>     
 
@@ -82,7 +91,7 @@ $query = mysqli_query($con, $sql);
     </div>                
 
 
-
+</center>
 
 
             <?php
@@ -95,10 +104,11 @@ if (!isset($_POST['buscar'])){$_POST['buscar'] = '';}
 <form method="POST" action="consultprodprov.php">
 <div class="mb-3">
     <br>
-<label class="form-label"><h1>Buscar Producto</h1></label>
-<input type="text" class="form-control" placeholder="Buscar Producto" id="buscar" name="buscar">
+    <label class="form-label"><h2><p style="color: #FFFFFF;">Buscar Cliente: </h2></label>
+    <input type="text" class="form" placeholder="Barra de busqueda" id="buscar" name="buscar">
+    <button type="text" class="btn type="submit" name="registar" id="registrar"><h5><p style="color: red ;">Click aqui para buscar</h5> </p></button>
 </div>
-<button type="text" class="btn btn-primary">Buscar</button>
+</div>
 </form>
 
 
