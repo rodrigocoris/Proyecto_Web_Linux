@@ -4,13 +4,13 @@ include("crudconexion.php");
 $con = conectar();
 
 $id = $_POST['id'];
-$color = $_POST['nombre'];
-$marca = $_POST['correo'];
-$modelo = $_POST['telefono'];
-$precio = $_POST['sexo'];
+$nombre = $_POST['nombre'];
+$correo = $_POST['correo'];
+$telefono = $_POST['telefono'];
+$sexo = $_POST['sexo'];
 
 
-$sql = "UPDATE formusuario SET nombre='$nombre', correo='$correo',telefono='$telefono',sexo='$sexo'  WHERE id = '$id'";
+$sql = "UPDATE formusuario SET nombre='$nombre', correo='$correo', telefono='$telefono', sexo='$sexo'   WHERE id = '$id'";
 $query = mysqli_query($con, $sql);
 
 if ($query) {

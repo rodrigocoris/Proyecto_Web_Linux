@@ -18,10 +18,10 @@ $row = mysqli_fetch_array($query);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/style.css" rel="stylesheet">
-     <link href="crudproducto.css" rel="stylesheet"> 
+     <link href="actualizarusuarioagencia.css" rel="stylesheet"> 
     <!--<link rel="stylesheet" href="http://localhost/Legendary Motorsport/proyecto paginas web\crudproducto.css" />-->
     <title>Actualizar</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+   
     <link rel="icon" href="img/Logos/carro-deportivo.png">
 </head>
 
@@ -49,24 +49,69 @@ $row = mysqli_fetch_array($query);
 
 
 <body>
-    <div class="container mt-5">
+
+
+<section id="content">
+
+
+<a href="consultusuarioagencia.php" class="btn type="submit" name="registar"><h2><p style="color: black;">Volver al inicio</h2> </p></a>
+</a>
+<h1><p> Actualizar Cliente</p></h1>
+<div class="contenedor-imagenes">
+    <img src="img/Logos/agencia.png" width="80px" height="95px" >
+  
+    <p><img src="img/Logos/admin.png" width="95px" height="80px"></p>
+  </div><!--Argupacion de imagenes-->
+
+
+<div class="container mt-5">
         <form action="updateusuarioagencia.php" method="POST">
             
            
         
             <input type="hidden" name="id" value="<?php echo $row['id']  ?>">
-            <h2>Nombre:</h2>
+            <h2><p style="color: white;">Nombre:</h2> </p>
             <input type="text" class="form-control-sm" name="nombre" placeholder="nombre" value="<?php echo $row['nombre']  ?>">
-            <h2>Correo:</h2>
+            <h2><p style="color: white;">Correo:</h2> </p>
             <input type="text" class="form-control-sm" name="correo" placeholder="correo" value="<?php echo $row['correo']  ?>">
-            <h2>Telefono:</h2>
+            <h2><p style="color: white;">Telefono:</h2> </p>
             <input type="text" class="form-control-sm" name="telefono" placeholder="telefono" value="<?php echo $row['telefono']  ?>">
-            <h2>Sexo:</h2>
+            <h2><p style="color: white;">Sexo:</h2> </p>
             <input type="text" class="form-control-sm" name="sexo" placeholder="sexo" value="<?php echo $row['sexo']  ?>">
-            <input type="submit" class="btn btn-info btn-lg" value="Actualizar cliente">
+            <br>
+            <br>
+            <br>
+            <button type="text" class="btn type="submit" name="registar" id="registrar"><h5><p style="color: black   ;">Actualizar Cliente</h5> </p></button>
         </form>
 
     </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </body>
 
 </html>

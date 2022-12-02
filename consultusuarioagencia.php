@@ -98,7 +98,7 @@ $query = mysqli_query($con, $sql);
                                 <th><?php echo $row['telefono'] ?></th>
                                 <th><?php echo $row['sexo'] ?></th>        
                                 <th><a href="eliminarusuarioagencia.php?id=<?php echo $row['id'] ?>" class="btn  "><h5><p style="color: #D81743  ;">Eliminar Cliente</h5> </p></a></th>
-                                <th><a href="actualizarusuarioagencia.php?id=<?php echo $row['id'] ?>" class="btn" type="submit" name="registar" id="registrar"><h5><p style="color: #2AC012 ;">Editar Cliente</h5> </p></a></th>
+                                <th><a href="actualizarusuarioagencia.php?id=<?php echo $row['id'] ?>" class="btn "><h5><p style="color: #2AC012 ;">Editar Cliente</h5> </p></a></th>
 
                             </tr>
                             </center>

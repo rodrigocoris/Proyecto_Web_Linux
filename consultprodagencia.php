@@ -46,7 +46,7 @@ $query = mysqli_query($con, $sql);
         <div class="row">
 
             <div class="col-md-3">
-                <a href="loginagencia.html">
+               
                 <a href="loginagencia.html" class="btn type="submit" name="registar"><h2><p style="color: #FFFFFF;">Volver al inicio</h2> </p></a>
                     <a href="consultusuarioagencia.php" class="btn type="submit" name="registar"><h2><p style="color: #FFFFFF;">Ver clientes</h2> </p></a>   
                     <br>

@@ -1,0 +1,86 @@
+body{
+    
+  
+    background: url(img/Logos/fondorojo.jpg) ;
+ 
+}
+
+*{box-sizing:border-box;}
+
+/*Argupacion de imagenes de formulario*/
+.contenedor-imagenes {
+  display: flex;
+  margin: auto;
+}
+
+.contenedor-imagenes  img:first-child{/*separacion de imagenes*/
+  margin-right: 190px;
+  margin-left: 40px;
+  
+}
+
+  
+
+/*campos de texto-----------------------------------------------------------------------*/
+
+#content{
+   
+    text-align: center;
+    color: white;
+    min-height: 200px;
+    width: 500px;
+    background-color: rgb(144, 76, 43);
+    padding: 20px;
+    /*Centar el cuadro*/
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+ 
+}
+/*estilos de las cajas de texto y letras*/
+form label{
+	width:90px;
+	font-weight:bold;
+	display:inline-block;
+}
+
+/*Cajas de texto redondeadas*/
+form input[type="text"],
+form input[type="number"],
+form input[type="email"],
+form input[type="password"]{
+	width:190px;
+	padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:5px 0;
+	display:inline-block;
+}
+
+
+/*boton de iniciar sesion----------------------------------------------------------------------------------------------------*/
+.btn{
+    font-family: Arial, Helvetica, sans-serif ;
+    font-weight: 100;
+    background-color: rgb(180, 1, 1);
+    border-radius: 18px;
+    padding: 2px 60px;
+    color: white;
+    text-decoration: none;
+    
+  }
+  
+  .btn {/*centar el boton*/
+    display: block;
+    margin: auto;
+  }
+  
+  .btn:hover{
+    background-color: transparent;
+    border: 2px solid rgb(135, 22, 22);
+    color: white;
+  }
+  
