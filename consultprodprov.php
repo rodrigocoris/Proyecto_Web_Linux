@@ -41,42 +41,92 @@ $query = mysqli_query($con, $sql);
 
 
 <body>
-    
+<a href="loginproveedores.html" class="btn type="submit" name="registar"><h2><p style="color: #FFFFFF;">Volver al inicio</h2> </p></a>
     <div class="container mt-5">
         <div class="row">
 
             <div class="col-md-3">
-                <a href="loginproveedores.html">
-                <a href="loginproveedores.html" class="btn type="submit" name="registar"><h2><p style="color: #FFFFFF;">Volver al inicio</h2> </p></a>
+               
                 
                     <br>
                     <br>
-                </a>
+               
                   <br>
-                  <h2><p style="color: black;">Registrar Producto</h2> </p>
                   <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+
+ 
  
 
                 
 <!-- Metodo de buscar-->
-       
-<form action="crudinsertar.php" method="POST">
 
-<h2><p style="color: white;">Color:</h2> </p>
+
+
+
+<section id="content">
+
+<div class="contenedor-imagenes">
+    <img src="img/Logos/proveedores.png" width="80px" height="95px" >
+  
+    <p><img src="img/Logos/proveedores.png" width="80px" height="95px"></p>
+  </div><!--Argupacion de imagenes-->
+
+
+<h2><p style="color: black;">Registrar Producto</h2> </p></a>
+
+
+
+<div class="container mt-5">
+<form action="insertprodprov.php" method="POST">
+
+<h4><p style="color: white;">Color:</h4> </p>
 <input type="text" class="form-control  mb-3" name="color" placeholder="Ingresar color">
-<h2><p style="color: white;">Marca:</h2> </p>
+<h4><p style="color: white;">Marca:</h4> </p>
 <input type="text" class="form-control mb-3" name="marca" placeholder="Ingresar  marca">
-<h2><p style="color: white;">Modelo:</h2> </p>
+<h4><p style="color: white;">Modelo:</h4> </p>
 <input type="text" class="form-control mb-3" name="modelo" placeholder="Ingresar  modelo">
-<h2><p style="color: white;">Precio:</h2> </p>
+<h4><p style="color: white;">Precio:</h4> </p>
 <input type="text" class="form-control mb-3" name="precio" placeholder="Ingresar  precio">
-<h2><p style="color: white;">Transmision:</h2> </p>
+<h4><p style="color: white;">Transmision:</h4> </p>
 <input type="text" class="form-control mb-3" name="transmision" placeholder="Ingresar  transmision">
-<h2><p style="color: white;">Imagen:</h2> </p>
+<h4><p style="color: white;">Imagen:</h4> </p>
 <input type="text" class="form-control mb-3" name="imagen" placeholder="Ingresar imagen">
 <center>
-<button type="text" class="btn type="submit" name="registar" id="registrar"><h5><p style="color: #1789D8  ;">Agregar Producto</h5> </p></button>
+    <br>
+<button type="text" class="btn type="submit" name="registar" id="registrar"><h3><p style="color: black  ;">Agregar Producto</h3> </p></button>
 </form>
+
+    </div>
+</section>
 <br>
 </div>
 </div>     
@@ -104,7 +154,8 @@ if (!isset($_POST['buscar'])){$_POST['buscar'] = '';}
 <form method="POST" action="consultprodprov.php">
 <div class="mb-3">
     <br>
-    <label class="form-label"><h2><p style="color: #FFFFFF;">Buscar Cliente: </h2></label>
+    <label class="form-label"><h1><p style="color: #FFFFFF;">Buscar: </h1></label>
+    <br>
     <input type="text" class="form" placeholder="Barra de busqueda" id="buscar" name="buscar">
     <button type="text" class="btn type="submit" name="registar" id="registrar"><h5><p style="color: red ;">Click aqui para buscar</h5> </p></button>
 </div>

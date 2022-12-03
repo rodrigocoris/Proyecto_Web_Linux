@@ -54,9 +54,10 @@ $row = mysqli_fetch_array($query);
 <section id="content">
 
 
-<a href="consultusuarioagencia.php" class="btn type="submit" name="registar"><h2><p style="color: black;">Volver al inicio</h2> </p></a>
+<a href="consultusuarioagencia.php" class="btn" type="submit" name="registar"><h2><p style="color: black;">Volver a cliente</h2> </p></a>
 </a>
-<h1><p> Actualizar Cliente</p></h1>
+<br>
+<h2><p style="color: black;">Actualizar Cliente</h2> </p></a>
 <div class="contenedor-imagenes">
     <img src="img/Logos/agencia.png" width="80px" height="95px" >
   
@@ -81,7 +82,7 @@ $row = mysqli_fetch_array($query);
             <br>
             <br>
             <br>
-            <button type="text" class="btn type="submit" name="registar" id="registrar"><h5><p style="color: black   ;">Actualizar Cliente</h5> </p></button>
+            <button type="text" class="btn" type="submit" name="registar" id="registrar"><h2><p style="color: black   ;">Actualizar Cliente</h2> </p></button>
         </form>
 
     </div>

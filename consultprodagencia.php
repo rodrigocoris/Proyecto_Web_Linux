@@ -87,7 +87,7 @@ if (!isset($_POST['buscar'])){$_POST['buscar'] = '';}
     <br>
     <br>
 <br>
-<label class="form-label"><h2><p style="color: #FFFFFF;">Buscar Cliente</h2></label>
+<label class="form-label"><h4><p style="color: #FFFFFF;">Buscar:</h4></label>
 <br>
 
 <input type="text" class="form" placeholder="Barra de busqueda" id="buscar" name="buscar">

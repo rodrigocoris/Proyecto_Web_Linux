@@ -19,6 +19,7 @@ $row = mysqli_fetch_array($query);
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/style.css" rel="stylesheet">
      <link href="crudproducto.css" rel="stylesheet"> 
+     <link href="crudactualizar.css" rel="stylesheet"> 
     <!--<link rel="stylesheet" href="http://localhost/Legendary Motorsport/proyecto paginas web\crudproducto.css" />-->
     <title>Actualizar</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
@@ -49,12 +50,28 @@ $row = mysqli_fetch_array($query);
 
 
 <body>
-    <div class="container mt-5">
+    <a href="crudproducto.php" class="btn" type="submit" name="registar"><h2><p style="color: white;">Volver a productos</h2> </p></a>
+</a>
+
+
+
+<section id="content">
+
+<div class="contenedor-imagenes">
+    <img src="img/Logos/rueda.png" width="80px" height="95px" >
+  
+    <p><img src="img/Logos/rueda.png" width="80px" height="95px"></p>
+  </div><!--Argupacion de imagenes-->
+  <br>
+
+<h2><p style="color: black;">Actualizar Producto</h2> </p></a>
+
+
+
+<div class="container mt-5">
         <form action="crudupdate.php" method="POST">
             
-           
-        
-            <input type="hidden" name="id" value="<?php echo $row['id']  ?>">
+        <input type="hidden" name="id" value="<?php echo $row['id']  ?>">
             <h2><p style="color: white;">Color:</h2> </p>
             <input type="text" class="form-control-sm" name="color" placeholder="color" value="<?php echo $row['color']  ?>">
             <h2><p style="color: white;">Marca:</h2> </p>
@@ -67,11 +84,15 @@ $row = mysqli_fetch_array($query);
             <input type="text" class="form-control-sm" name="transmision" placeholder="transmision" value="<?php echo $row['transmision']  ?>">
             <h2><p style="color: white;">Imagen:</h2> </p>
             <input type="text" class="form-control mb-3" name="imagen" placeholder="imagen" value="<?php echo $row['imagen']  ?>">
-            <button type="text" class="btn type="submit" name="registar" id="registrar"><h5><p style="color: #BBD817   ;">Actualizar Producto</h5> </p></button>
-</form>
+            <br>
+
+            <button type="text" class="btn type="submit" name="registar" id="registrar"><h5><p style="color: black   ;">Actualizar Producto</h5> </p></button>
         </form>
 
     </div>
+</section>
+
+    
 </body>
 
 </html>
