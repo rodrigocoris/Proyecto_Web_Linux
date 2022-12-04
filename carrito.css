@@ -1,0 +1,138 @@
+body{
+    
+  
+    background: url(img/Logos/cafe.jpg) ;
+  
+  }
+  
+  *{box-sizing:border-box;}
+  
+  /*Argupacion de imagenes de formulario*/
+  .contenedor-imagenes {
+  display: flex;
+  margin: auto;
+  }
+  
+  .contenedor-imagenes  img:first-child{/*separacion de imagenes*/
+  margin-right: 190px;
+  margin-left: 40px;
+  
+  }
+  
+  
+  
+  /*campos de texto-----------------------------------------------------------------------*/
+  
+  #content{
+   
+    text-align: center;
+    color: white;
+    height: 900px;
+    width: 500px;
+    
+    background-color: rgb(102, 91, 91);
+    padding: 8px;
+    /*Centar el cuadro*/
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+  
+  }
+  /*estilos de las cajas de texto y letras*/
+  form label{
+  width:90px;
+  font-weight:bold;
+  display:inline-block;
+  }
+  
+  /*Cajas de texto redondeadas*/
+  form input[type="text"],
+  form input[type="number"],
+  form input[type="email"],
+  form input[type="password"]{
+  width:400px;
+  padding:3px 10px;
+  border:1px solid #f6f6f6;
+  border-radius:10px;
+  background-color:#f6f6f6;
+  margin:5px 0;
+  display:inline-block;
+  }
+  
+  
+  /*boton de iniciar sesion----------------------------------------------------------------------------------------------------*/
+  .btn{
+    font-family: Arial, Helvetica, sans-serif ;
+    font-weight: 100;
+    background-color: rgb(249, 249, 249);
+    border-radius: 18px;
+    padding: 2px 60px;
+    color: white;
+  
+    
+  }
+  
+  .btn {/*centar el boton*/
+    display: block;
+    margin: auto;
+  }
+  
+  .btn:hover{
+    background-color: rgb(154, 154, 157);
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
+  }
+
+
+
+
+  .btn2{
+    font-family: Arial, Helvetica, sans-serif ;
+    font-weight: 100;
+    background-color: rgb(249, 249, 249);
+    border-radius: 18px;
+    padding: 2px 60px;
+    color: rgb(0, 0, 0);
+  
+    
+  }
+  
+  .btn2 {/*centar el boton*/
+    display: block;
+    margin: auto;
+  }
+  
+  .btn2:hover{
+    background-color: rgb(210, 53, 10);
+    border: 2px solid rgb(215, 204, 204);
+    color: black;
+  }
+
+
+
+
+  .btn3{
+    font-family: Arial, Helvetica, sans-serif ;
+    font-weight: 100;
+    background-color: rgb(249, 249, 249);
+    border-radius: 7px;
+    padding: 2px 60px;
+    color: rgb(0, 0, 0);
+  
+    
+  }
+  
+  .btn3 {/*centar el boton*/
+    display: block;
+    margin: auto;
+  }
+  
+  .btn3:hover{
+    background-color: rgb(242, 255, 2);
+    border: 2px solid rgb(19, 18, 18);
+    color: black;
+  }
+  
+
