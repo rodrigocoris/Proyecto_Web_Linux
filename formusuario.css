@@ -1,5 +1,6 @@
 body{
-    background-color: rgb(173, 0, 75);
+  background: url(img/Logos/formusuario.jpg) no-repeat;
+  background-size: 1700px;
 }
 
 *{box-sizing:border-box;}
@@ -70,8 +71,9 @@ body{
     color: white;
     min-height: 200px;
     width: 500px;
-    background-color: rgb(124, 7, 57);
-    padding: 20px;
+    background-color: #E76157;
+    padding: 10px;
+    
     /*Centar el cuadro*/
     position: absolute;
     top: 55%;
@@ -82,7 +84,7 @@ body{
 }
 /*estilos de las cajas de texto y letras*/
 form label{
-	width:90px;
+	width:70px;
 	font-weight:bold;
 	display:inline-block;
 }
@@ -92,12 +94,12 @@ form input[type="text"],
 form input[type="number"],
 form input[type="email"],
 form input[type="password"]{
-	width:190px;
+	width:250px;
 	padding:3px 10px;
-	border:1px solid #f6f6f6;
-	border-radius:3px;
-	background-color:#f6f6f6;
-	margin:5px 0;
+	border:3px solid #843939;
+	border-radius:10px;
+	background-color:#c29e9e;
+	margin:5px 15px;
 	display:inline-block;
 }
 
@@ -106,10 +108,10 @@ form input[type="password"]{
 .btn{
     font-family: Arial, Helvetica, sans-serif ;
     font-weight: 100;
-    background-color: rgb(124, 7, 57);
+    background-color: #c6c2ba;
     border-radius: 18px;
     padding: 2px 60px;
-    color: white;
+    color: Black;
     text-decoration: none;
     
   }
@@ -121,7 +123,7 @@ form input[type="password"]{
   
   .btn:hover{
     background-color: transparent;
-    border: 2px solid rgb(206, 29, 29);
-    color: white;
+    border: 2px solid rgba(222, 221, 221, 0.844);
+    color: white;;
   }
   

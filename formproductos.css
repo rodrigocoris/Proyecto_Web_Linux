@@ -1,5 +1,8 @@
+
+
 body{
-    background-color: rgb(5, 31, 80);
+  background: url(img/Logos/formproductos.jpg) no-repeat;
+  background-size: 2000px;
 }
 
 *{box-sizing:border-box;}
@@ -70,7 +73,7 @@ body{
     color: white;
     min-height: 200px;
     width: 500px;
-    background-color: rgb(33, 64, 114);
+    background-color: #176f92;
     padding: 20px;
     /*Centar el cuadro*/
     position: absolute;
@@ -89,13 +92,15 @@ form label{
 
 /*Cajas de texto redondeadas*/
 form input[type="text"],
-form input[type="number"]{
-	width:190px;
-	padding:3px 10px;
-	border:1px solid #f6f6f6;
-	border-radius:3px;
+form input[type="number"],
+form input[type="email"],
+form input[type="password"]{
+	width:280px;
+	padding:10px 10px;
+	border:3px solid #f6f6f6;
+	border-radius:10px;
 	background-color:#f6f6f6;
-	margin:5px 0;
+	margin:8px 0;
 	display:inline-block;
 }
 
@@ -104,7 +109,7 @@ form input[type="number"]{
 .btn{
     font-family: Arial, Helvetica, sans-serif ;
     font-weight: 100;
-    background-color: rgb(5, 31, 80);
+    background-color: rgb(53, 83, 96);
     border-radius: 18px;
     padding: 2px 60px;
     color: white;
@@ -119,7 +124,36 @@ form input[type="number"]{
   
   .btn:hover{
     background-color: transparent;
-    border: 2px solid cornflowerblue;
+    border: 2px solid rgb(239, 247, 244);
+    color: rgb(0, 0, 0);
+  }
+
+
+
+
+  .btn1{
+    font-family: Arial, Helvetica, sans-serif ;
+    font-weight: 100;
+    background-color: rgb(147, 162, 168);
+    border-radius: 18px;
+    padding: 2px 60px;
+    color: black;
+    text-decoration: none;
+    
+  }
+  
+  .btn1{/*centar el boton*/
+    display: block;
+    margin: auto;
+  }
+  
+  .btn1:hover{
+    background-color: transparent;
+    border: 2px solid rgb(239, 247, 244);
     color: white;
   }
   
+
+  
+
+

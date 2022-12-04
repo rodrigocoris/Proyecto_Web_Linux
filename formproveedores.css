@@ -1,5 +1,6 @@
 body{
-    background-color: rgb(120, 51, 21);
+  background: url(img/Logos/formadmin.jpg) no-repeat;
+  background-size: 1700px;
 }
 
 *{box-sizing:border-box;}
@@ -55,7 +56,7 @@ body{
     text-decoration: none;
   }
   nav ul li:hover {
-    background-color: rgb(165, 33, 77);
+    background-color: rgb(101, 33, 165);
   }
   .contenido {
     padding-top: 80px;
@@ -70,7 +71,7 @@ body{
     color: white;
     min-height: 200px;
     width: 500px;
-    background-color: rgb(104, 12, 64);
+    background-color: #F28C12;
     padding: 20px;
     /*Centar el cuadro*/
     position: absolute;
@@ -92,12 +93,12 @@ form input[type="text"],
 form input[type="number"],
 form input[type="email"],
 form input[type="password"]{
-	width:190px;
-	padding:3px 10px;
-	border:1px solid #f6f6f6;
-	border-radius:3px;
+	width:250px;
+	padding:4px 10px;
+	border:10px solid #f6f6f6;
+	border-radius:10px;
 	background-color:#f6f6f6;
-	margin:5px 0;
+	margin:5px 15PX;
 	display:inline-block;
 }
 
@@ -106,10 +107,10 @@ form input[type="password"]{
 .btn{
     font-family: Arial, Helvetica, sans-serif ;
     font-weight: 100;
-    background-color: rgb(11, 69, 45);
+    background-color: rgb(239, 187, 18);
     border-radius: 18px;
     padding: 2px 60px;
-    color: white;
+    color: black;
     text-decoration: none;
     
   }
@@ -121,7 +122,35 @@ form input[type="password"]{
   
   .btn:hover{
     background-color: transparent;
-    border: 2px solid rgb(21, 137, 99);
+    border: 2px solid rgb(239, 187, 18);
     color: white;
   }
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

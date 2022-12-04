@@ -1,5 +1,7 @@
+
 body{
-    background-color: rgb(57, 21, 120);
+  background: url(img/Logos/formagencia.jpeg) no-repeat;
+  background-size: 1700px;
 }
 
 *{box-sizing:border-box;}
@@ -70,7 +72,7 @@ body{
     color: white;
     min-height: 200px;
     width: 500px;
-    background-color: rgb(104, 101, 12);
+    background-color: #265BBB;
     padding: 20px;
     /*Centar el cuadro*/
     position: absolute;
@@ -92,12 +94,12 @@ form input[type="text"],
 form input[type="number"],
 form input[type="email"],
 form input[type="password"]{
-	width:190px;
-	padding:3px 10px;
-	border:1px solid #f6f6f6;
-	border-radius:3px;
+	width:250px;
+	padding:10px 10px;
+	border:4px solid #2c3153;
+	border-radius:10px;
 	background-color:#f6f6f6;
-	margin:5px 0;
+	margin:7px 0;
 	display:inline-block;
 }
 
@@ -106,7 +108,7 @@ form input[type="password"]{
 .btn{
     font-family: Arial, Helvetica, sans-serif ;
     font-weight: 100;
-    background-color: rgb(7, 80, 102);
+    background-color: rgb(5, 60, 224);
     border-radius: 18px;
     padding: 2px 60px;
     color: white;
@@ -121,7 +123,7 @@ form input[type="password"]{
   
   .btn:hover{
     background-color: transparent;
-    border: 2px solid rgb(29, 91, 206);
+    border: 2px solid rgb(3, 3, 3);
     color: white;
   }
   

@@ -1,5 +1,8 @@
+
+
 body{
-    background-color: rgb(0, 124, 173);
+  background: url(img/Logos/formadmin2.JPG) no-repeat;
+  background-size: 1700px;
 }
 
 *{box-sizing:border-box;}
@@ -70,7 +73,7 @@ body{
     color: white;
     min-height: 200px;
     width: 500px;
-    background-color: rgb(7, 101, 124);
+    background-color: #D83414;
     padding: 20px;
     /*Centar el cuadro*/
     position: absolute;
@@ -92,12 +95,12 @@ form input[type="text"],
 form input[type="number"],
 form input[type="email"],
 form input[type="password"]{
-	width:190px;
-	padding:3px 10px;
-	border:1px solid #f6f6f6;
-	border-radius:3px;
+	width:280px;
+	padding:10px 10px;
+	border:3px solid #f6f6f6;
+	border-radius:10px;
 	background-color:#f6f6f6;
-	margin:5px 0;
+	margin:8px 0;
 	display:inline-block;
 }
 
@@ -106,7 +109,7 @@ form input[type="password"]{
 .btn{
     font-family: Arial, Helvetica, sans-serif ;
     font-weight: 100;
-    background-color: rgb(7, 48, 124);
+    background-color: rgb(62, 53, 53);
     border-radius: 18px;
     padding: 2px 60px;
     color: white;
@@ -121,7 +124,9 @@ form input[type="password"]{
   
   .btn:hover{
     background-color: transparent;
-    border: 2px solid rgb(76, 29, 206);
-    color: white;
+    border: 2px solid rgb(114, 128, 123);
+    color: black;
   }
   
+
+

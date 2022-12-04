@@ -13,7 +13,7 @@ $filas=mysqli_num_rows($resultado);
 
 //validar con 1 y 0 
 if ($filas>0) {
-   header("Location: crudproducto.php");
+   header("Location: formproductos.html");
    echo "Autenticacion Exitosa";
 }
 else{

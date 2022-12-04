@@ -1,7 +1,8 @@
 body{
     
   
-    background: url(img/Logos/cafe.jpg) ;
+    background: url(img/Autos/fondo.jpg);
+ 
   
   }
   
@@ -88,13 +89,16 @@ body{
 
 
 
+
+  
+
   .btn2{
     font-family: Arial, Helvetica, sans-serif ;
     font-weight: 100;
     background-color: rgb(249, 249, 249);
-    border-radius: 18px;
+    border-radius: 35px;
     padding: 2px 60px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 0, 0);
   
     
   }
@@ -105,10 +109,13 @@ body{
   }
   
   .btn2:hover{
-    background-color: rgb(210, 53, 10);
+    background-color: rgb(255, 55, 0);
     border: 2px solid rgb(215, 204, 204);
-    color: black;
+    color: rgb(238, 238, 238);
   }
+
+
+
 
 
 
@@ -116,10 +123,10 @@ body{
   .btn3{
     font-family: Arial, Helvetica, sans-serif ;
     font-weight: 100;
-    background-color: rgb(249, 249, 249);
+    background-color: rgb(140, 140, 140);
     border-radius: 7px;
-    padding: 2px 60px;
-    color: rgb(0, 0, 0);
+    padding: 3px 60px;
+    color: white;
   
     
   }
@@ -130,9 +137,59 @@ body{
   }
   
   .btn3:hover{
-    background-color: rgb(242, 255, 2);
+    background-color: rgb(109, 199, 207);
     border: 2px solid rgb(19, 18, 18);
     color: black;
   }
   
 
+
+
+
+  .btn4{
+    font-family: Arial, Helvetica, sans-serif ;
+    font-weight: 100;
+    background-color: rgb(249, 249, 249);
+    border-radius: 1px;
+    padding: 2px 60px;
+    color: white;
+  
+    
+  }
+  
+  .btn4{/*centar el boton*/
+    display: block;
+    margin: auto;
+  }
+  
+  .btn4:hover{
+    background-color: rgb(154, 154, 157);
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
+  }
+
+
+
+
+  
+  .btn5{
+    font-family: Arial, Helvetica, sans-serif ;
+    font-weight: 100;
+    background-color: rgb(249, 249, 249);
+    border-radius: 18px;
+    padding: 2px 60px;
+    color: white;
+  
+    
+  }
+  
+  .btn5{/*centar el boton*/
+    display: block;
+    margin: auto;
+  }
+  
+  .btn5:hover{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
+  }
