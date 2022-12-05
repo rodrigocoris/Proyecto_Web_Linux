@@ -50,8 +50,7 @@ $row = mysqli_fetch_array($query);
 
 
 <body>
-    <a href="crudproducto.php" class="btn" type="submit" name="registar"><h2><p style="color: white;">Volver a productos</h2> </p></a>
-</a>
+<a href="crudproducto.php" class="btn" type="submit" name="registar"><img src="img/Logos/flecha.png"  width="50"><h5><p style="color: white;">Volver </h5> </p></a>
 
 
 
@@ -85,8 +84,8 @@ $row = mysqli_fetch_array($query);
             <h2><p style="color: white;">Imagen:</h2> </p>
             <input type="text" class="form-control mb-3" name="imagen" placeholder="imagen" value="<?php echo $row['imagen']  ?>">
             <br>
-
-            <button type="text" class="btn type="submit" name="registar" id="registrar"><h5><p style="color: black   ;">Actualizar Producto</h5> </p></button>
+            <br>
+            <button type="text" class="btn1" type="submit" name="registar" id="registrar"><h5><p style="color: black   ;">Actualizar Producto</h5> </p></button>
         </form>
 
     </div>

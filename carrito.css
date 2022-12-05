@@ -1,7 +1,8 @@
 body{
     
   
-    background: url(img/Autos/fondo.jpg);
+    background: url(img/Logos/cars.jpg) no-repeat;
+    background-size: 2000px;
  
   
   }

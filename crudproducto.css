@@ -1,9 +1,7 @@
 body, html {
-  height: 96%;
-
-  background: url(img/Logos/fondorojo.jpg) ;
-  background-size: 100% 100%;
-}
+    background: url(img/Logos/crudprod.jpg) no-repeat;
+    background-size: 2000px;
+  }
 
 
 thead, tfoot {
@@ -20,7 +18,7 @@ tbody tr:nth-child(even) {
 
 
 table {
-  background-color: #558684;
+  background-color: #a1bebd;
 }
 
 
@@ -112,25 +110,94 @@ th {
   
 /*boton de iniciar sesion----------------------------------------------------------------------------------------------------*/
 .btn{
-font-family: Arial, Helvetica, sans-serif ;
-font-weight: 100;
-background-color: rgb(249, 249, 249);
-border-radius: 18px;
-padding: 2px 60px;
-color: white;
-text-decoration: none;
-
+  font-family: Arial, Helvetica, sans-serif ;
+  font-weight: 100;
+  background-color: rgb(255, 255, 255);
+  border-radius: 18px;
+  padding: 2px 60px;
+  color: black;
+  text-decoration: none;
+  
 }
 
-.btn {/*centar el boton*/
-display: block;
-margin: auto;
-
+.btn{/*centar el boton*/
+  display: block;
+  margin: auto;
 }
 
 .btn:hover{
-  background-color: rgb(154, 154, 157);
-  border: 2px solid rgb(255, 255, 255);
+  background-color: rgb(131, 71, 71);
+  border: 2px solid rgb(147, 162, 168);
   color: white;
 }
 
+
+.btn1{
+  font-family: Arial, Helvetica, sans-serif ;
+  font-weight: 100;
+  background-color: rgb(247, 247, 247);
+  border-radius: 18px;
+  padding: 2px 60px;
+  color: black;
+  text-decoration: none;
+  
+}
+
+.btn1{/*centar el boton*/
+  display: block;
+  margin: auto;
+}
+
+.btn1:hover{
+  background-color: rgb(147, 162, 168);
+  border: 2px solid rgb(239, 247, 244);
+  color: white;
+}
+
+
+
+
+.btn2{
+  font-family: Arial, Helvetica, sans-serif ;
+  font-weight: 100;
+  background-color: rgb(255, 255, 255);
+  border-radius: 18px;
+  padding: 2px 60px;
+  color: black;
+  text-decoration: none;
+  
+}
+
+.btn2{/*centar el boton*/
+  display: block;
+  margin: auto;
+}
+
+.btn2:hover{
+  background-color: rgb(43, 147, 38);
+  border: 2px solid rgb(239, 247, 244);
+  color: white;
+}
+
+
+.btn3{
+  font-family: Arial, Helvetica, sans-serif ;
+  font-weight: 100;
+  background-color: rgb(255, 255, 255);
+  border-radius: 18px;
+  padding: 2px 60px;
+  color: black;
+  text-decoration: none;
+  
+}
+
+.btn3{/*centar el boton*/
+  display: block;
+  margin: auto;
+}
+
+.btn3:hover{
+  background-color: rgb(147, 48, 48);
+  border: 2px solid rgb(239, 247, 244);
+  color: white;
+}

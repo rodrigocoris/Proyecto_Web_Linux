@@ -1,8 +1,6 @@
-body{
-    
-  
-  background: url(img/Logos/fondo.jpg) ;
-
+body, html {
+  background: url(img/Logos/prodagencia.jpg) no-repeat;
+  background-size: 1500px;
 }
 
 *{box-sizing:border-box;}
@@ -82,5 +80,27 @@ display:inline-block;
 .btn:hover{
   background-color: rgb(154, 154, 157);
   border: 2px solid rgb(255, 255, 255);
+  color: white;
+}
+
+
+
+
+.btn1{
+  font-family: Arial, Helvetica, sans-serif ;
+  font-weight: 100;
+  background-color: rgb(255, 255, 255);
+  border-radius: 18px;
+  padding: 2px 60px;
+  color: black;
+  text-decoration: none;
+  
+}
+
+
+
+.btn1:hover{
+  background-color: rgb(147, 162, 168);
+  border: 2px solid rgb(239, 247, 244);
   color: white;
 }

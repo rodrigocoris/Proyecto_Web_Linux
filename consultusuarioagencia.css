@@ -1,9 +1,7 @@
 body, html {
-    height: 96%;
-  
-    background: url(img/Logos/fondo.jpg) ;
-    background-size: 100% 100%;
-  }
+  background: url(img/Logos/consultusuario.jpg) no-repeat;
+  background-size: 2000px;
+}
   
   
   thead, tfoot {
@@ -14,13 +12,13 @@ body, html {
   
   
   tbody tr:nth-child(even) {
-    background-color: #cccccc;
+    background-color: #b08181;
   }
   
   
   
   table {
-    background-color: #b3b5c6;
+    background-color: #d7cece;
   }
   
   
@@ -114,11 +112,11 @@ body, html {
 .btn{
   font-family: Arial, Helvetica, sans-serif ;
   font-weight: 100;
-  background-color: rgb(242, 0, 0);
+  background-color: rgb(249, 249, 249);
   border-radius: 18px;
   padding: 2px 60px;
   color: white;
-  text-decoration: none;
+
   
 }
 
@@ -128,7 +126,56 @@ body, html {
 }
 
 .btn:hover{
-  background-color: transparent;
-  border: 2px solid rgb(255, 0, 0);
+  background-color: rgb(154, 154, 157);
+  border: 2px solid rgb(255, 255, 255);
+  color: white;
+}
+
+
+
+
+
+.btn2{
+  font-family: Arial, Helvetica, sans-serif ;
+  font-weight: 100;
+  background-color: rgb(255, 255, 255);
+  border-radius: 18px;
+  padding: 2px 60px;
+  color: black;
+  text-decoration: none;
+  
+}
+
+.btn2{/*centar el boton*/
+  display: block;
+  margin: auto;
+}
+
+.btn2:hover{
+  background-color: rgb(43, 147, 38);
+  border: 2px solid rgb(239, 247, 244);
+  color: white;
+}
+
+
+.btn3{
+  font-family: Arial, Helvetica, sans-serif ;
+  font-weight: 100;
+  background-color: rgb(255, 255, 255);
+  border-radius: 18px;
+  padding: 2px 60px;
+  color: black;
+  text-decoration: none;
+  
+}
+
+.btn3{/*centar el boton*/
+  display: block;
+  margin: auto;
+}
+
+.btn3:hover{
+  background-color: rgb(147, 48, 48);
+  border: 2px solid rgb(239, 247, 244);
   color: white;
 }

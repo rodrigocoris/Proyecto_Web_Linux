@@ -53,9 +53,8 @@ $row = mysqli_fetch_array($query);
 
 <section id="content">
 
+<a href="consultusuarioagencia.php" class="btn" type="submit" name="registar"><p style="color: black;"><h2>Volver a cliente</h2></a></p>
 
-<a href="consultusuarioagencia.php" class="btn" type="submit" name="registar"><h2><p style="color: black;">Volver a cliente</h2> </p></a>
-</a>
 <br>
 <h2><p style="color: black;">Actualizar Cliente</h2> </p></a>
 <div class="contenedor-imagenes">

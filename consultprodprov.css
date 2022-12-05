@@ -1,9 +1,8 @@
-body{
-    
-  
-  background: url(img/Logos/cafe.jpg) ;
-
+body, html {
+  background: url(img/Logos/consultprov.jpg) no-repeat;
+  background-size: 2000px;
 }
+
 
 *{box-sizing:border-box;}
 
@@ -30,7 +29,7 @@ margin-left: 40px;
   height: 900px;
   width: 500px;
   
-  background-color: rgb(132, 108, 70);
+  background-color: #D96E07;
   padding: 8px;
   /*Centar el cuadro*/
   position: absolute;
@@ -80,6 +79,50 @@ display:inline-block;
 }
 
 .btn:hover{
+  background-color: rgb(154, 154, 157);
+  border: 2px solid rgb(255, 255, 255);
+  color: white;
+}
+
+
+
+.btn1{
+  font-family: Arial, Helvetica, sans-serif ;
+  font-weight: 100;
+  background-color: rgb(255, 255, 255);
+  border-radius: 18px;
+  padding: 2px 60px;
+  color: black;
+  text-decoration: none;
+  
+}
+
+.btn1{/*centar el boton*/
+  display: block;
+  margin: auto;
+}
+
+.btn1:hover{
+  background-color: rgb(147, 162, 168);
+  border: 2px solid rgb(239, 247, 244);
+  color: white;
+}
+
+
+.btn2{
+  font-family: Arial, Helvetica, sans-serif ;
+  font-weight: 100;
+  background-color: #D96E07;
+  border-radius: 18px;
+  padding: 2px 60px;
+  color: white;
+
+  
+}
+
+
+
+.btn2:hover{
   background-color: rgb(154, 154, 157);
   border: 2px solid rgb(255, 255, 255);
   color: white;

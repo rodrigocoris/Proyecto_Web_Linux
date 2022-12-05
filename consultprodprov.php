@@ -41,7 +41,7 @@ $query = mysqli_query($con, $sql);
 
 
 <body>
-<a href="loginproveedores.html" class="btn type="submit" name="registar"><h2><p style="color: #FFFFFF;">Volver al inicio</h2> </p></a>
+<a href="loginproveedores.html" class="btn" type="submit" name="registar"><img src="img/Logos/flecha.png"  width="50"><h5><p style="color: white;">Volver </h5> </p></a>
     <div class="container mt-5">
         <div class="row">
 
@@ -122,7 +122,7 @@ $query = mysqli_query($con, $sql);
 <input type="text" class="form-control mb-3" name="imagen" placeholder="Ingresar imagen">
 <center>
     <br>
-<button type="text" class="btn type="submit" name="registar" id="registrar"><h3><p style="color: black  ;">Agregar Producto</h3> </p></button>
+<button type="text" class="btn1" type="submit" name="registar" id="registrar"><h3><p style="color: black  ;">Agregar Producto</h3> </p></button>
 </form>
 
     </div>
@@ -157,7 +157,7 @@ if (!isset($_POST['buscar'])){$_POST['buscar'] = '';}
     <label class="form-label"><h1><p style="color: #FFFFFF;">Buscar: </h1></label>
     <br>
     <input type="text" class="form" placeholder="Barra de busqueda" id="buscar" name="buscar">
-    <button type="text" class="btn type="submit" name="registar" id="registrar"><h5><p style="color: red ;">Click aqui para buscar</h5> </p></button>
+    <button type="text" class="btn2" type="submit" name="registar" id="registrar"><h5><p style="color: black;">Click aqui para buscar</h5> </p></button>
 </div>
 </div>
 </form>

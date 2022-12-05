@@ -47,8 +47,8 @@ $query = mysqli_query($con, $sql);
 
             <div class="col-md-3">
                
-                <a href="loginagencia.html" class="btn type="submit" name="registar"><h2><p style="color: #FFFFFF;">Volver al inicio</h2> </p></a>
-                    <a href="consultusuarioagencia.php" class="btn type="submit" name="registar"><h2><p style="color: #FFFFFF;">Ver clientes</h2> </p></a>   
+            <a href="loginagencia.html" class="btn" type="submit" name="registar"><img src="img/Logos/flecha.png"  width="50"><h5><p style="color: black;">Volver </h5> </p></a>
+                    <a href="consultusuarioagencia.php" class="btn1" type="submit" name="registar"><h2><p style="color: black;">Ver clientes</h2> </p></a>   
                     <br>
                   
                 </a>
@@ -92,7 +92,7 @@ if (!isset($_POST['buscar'])){$_POST['buscar'] = '';}
 
 <input type="text" class="form" placeholder="Barra de busqueda" id="buscar" name="buscar">
 
-<button type="text" class="btn type="submit" name="registar" id="registrar"><h5><p style="color: red ;">Click aqui para buscar</h5> </p></button>
+<button type="text" class="btn1" type="submit" name="registar" id="registrar"><h5><p style="color: black ;">Click aqui para buscar</h5> </p></button>
 </div>
 </form>
 

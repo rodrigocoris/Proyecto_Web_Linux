@@ -48,9 +48,7 @@ $query = mysqli_query($con, $sql);
         <div class="row">
 
             <div class="col-md-3">
-                <a href="consultprodagencia.php">
-                    
-                    <a href="consultprodagencia.php" class="btn type="submit" name="registar"><h2><p style="color: #FFFFFF;">Regresar</h2> </p></a>
+            <a href="consultprodagencia.php" class="btn" type="submit" name="registar"><img src="img/Logos/flecha.png"  width="50"><h5><p style="color: black;">Volver </h5> </p></a>
                     <br>
                 </a>
                    <br>
@@ -97,8 +95,8 @@ $query = mysqli_query($con, $sql);
                                 <th><?php echo $row['correo'] ?></th>
                                 <th><?php echo $row['telefono'] ?></th>
                                 <th><?php echo $row['sexo'] ?></th>        
-                                <th><a href="eliminarusuarioagencia.php?id=<?php echo $row['id'] ?>" class="btn  "><h5><p style="color: #D81743  ;">Eliminar Cliente</h5> </p></a></th>
-                                <th><a href="actualizarusuarioagencia.php?id=<?php echo $row['id'] ?>" class="btn "><h5><p style="color: #2AC012 ;">Editar Cliente</h5> </p></a></th>
+                                <th><a href="eliminarusuarioagencia.php?id=<?php echo $row['id'] ?>" class="btn3 "><h5><p style="color: #D81743  ;">Eliminar Cliente</h5> </p></a></th>
+                                <th><a href="actualizarusuarioagencia.php?id=<?php echo $row['id'] ?>" class="btn2"><h5><p style="color: #2AC012 ;">Editar Cliente</h5> </p></a></th>
 
                             </tr>
                             </center>
