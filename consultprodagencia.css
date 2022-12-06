@@ -1,7 +1,8 @@
 body, html {
-  background: url(img/Logos/prodagencia.jpg) no-repeat;
-  background-size: 1500px;
+  background: url(img/Logos/cliente.jpg) ;
+  background-size: 1600px;
 }
+
 
 *{box-sizing:border-box;}
 
@@ -28,7 +29,7 @@ margin-left: 40px;
   height: 900px;
   width: 500px;
   
-  background-color: rgb(102, 91, 91);
+  background-color: #D96E07;
   padding: 8px;
   /*Centar el cuadro*/
   position: absolute;
@@ -85,7 +86,6 @@ display:inline-block;
 
 
 
-
 .btn1{
   font-family: Arial, Helvetica, sans-serif ;
   font-weight: 100;
@@ -97,10 +97,34 @@ display:inline-block;
   
 }
 
-
+.btn1{/*centar el boton*/
+  display: block;
+  margin: auto;
+}
 
 .btn1:hover{
   background-color: rgb(147, 162, 168);
   border: 2px solid rgb(239, 247, 244);
   color: white;
 }
+
+
+.btn2{
+  font-family: Arial, Helvetica, sans-serif ;
+  font-weight: 100;
+  background-color: rgb(154, 154, 157);
+  border-radius: 18px;
+  padding: 2px 60px;
+  color: white;
+
+  
+}
+
+
+
+.btn2:hover{
+  background-color: #ffffff;
+  border: 2px solid rgb(255, 255, 255);
+  color: white;
+}
+

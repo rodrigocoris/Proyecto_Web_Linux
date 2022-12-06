@@ -21,31 +21,10 @@ $row = mysqli_fetch_array($query);
      <link href="crudproducto.css" rel="stylesheet"> 
      <link href="crudactualizar.css" rel="stylesheet"> 
     <!--<link rel="stylesheet" href="http://localhost/Legendary Motorsport/proyecto paginas web\crudproducto.css" />-->
-    <title>Actualizar</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <title>Actualizar</title>                                                                                                                                                                  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="icon" href="img/Logos/carro-deportivo.png">
 </head>
 
-<!--Barra de navegacion
-<header>
-    <section class="wrapper">
-          <nav>
-              <ul>
-                    <br>
-                  <li><img src = "img/Logos/Logo 2.png" height="50" ></li>
-                  <li><a href="index.html">Inicio</a></li>
-                  <li><a href="loginusuario.html">Iniciar Sesion</a></li>
-                  <li><a href="formusuario.html">Registrarse</a></li>
-                  <li><a href="formproductos.html">Registar Auto</a></li>
-                  <li><a href="loginadmin.html">Administrador</a></li>
-                  <li><a href="autos.html">Autos en exhibicion</a></li>
-                  <li><a href="proveedores.html">Proveedores</a></li>
-                  <li><a href="agencia.html">Agencia</a></li>
-                  <li><a href="pruebas.html">pruebas</a></li>
-              </ul>           
-           </nav>
-    </section>
-</header>----------------------------------------------------------------->
 
 
 

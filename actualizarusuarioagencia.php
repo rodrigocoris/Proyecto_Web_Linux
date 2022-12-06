@@ -25,29 +25,6 @@ $row = mysqli_fetch_array($query);
     <link rel="icon" href="img/Logos/carro-deportivo.png">
 </head>
 
-<!--Barra de navegacion
-<header>
-    <section class="wrapper">
-          <nav>
-              <ul>
-                    <br>
-                  <li><img src = "img/Logos/Logo 2.png" height="50" ></li>
-                  <li><a href="index.html">Inicio</a></li>
-                  <li><a href="loginusuario.html">Iniciar Sesion</a></li>
-                  <li><a href="formusuario.html">Registrarse</a></li>
-                  <li><a href="formproductos.html">Registar Auto</a></li>
-                  <li><a href="loginadmin.html">Administrador</a></li>
-                  <li><a href="autos.html">Autos en exhibicion</a></li>
-                  <li><a href="proveedores.html">Proveedores</a></li>
-                  <li><a href="agencia.html">Agencia</a></li>
-                  <li><a href="pruebas.html">pruebas</a></li>
-              </ul>           
-           </nav>
-    </section>
-</header>----------------------------------------------------------------->
-
-
-
 <body>
 
 
@@ -83,35 +60,8 @@ $row = mysqli_fetch_array($query);
             <br>
             <button type="text" class="btn" type="submit" name="registar" id="registrar"><h2><p style="color: black   ;">Actualizar Cliente</h2> </p></button>
         </form>
-
-    </div>
-</section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+         </div>
+    </section>
 </body>
 
 </html>

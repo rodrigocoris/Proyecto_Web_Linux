@@ -1,10 +1,6 @@
-body{
-    
-  
-    background: url(img/Logos/cars.jpg) no-repeat;
-    background-size: 2000px;
- 
-  
+  body, html {
+    background: url(img/Logos/prodagencia.jpg) no-repeat;
+    background-size: 1530px;
   }
   
   *{box-sizing:border-box;}
@@ -86,111 +82,26 @@ body{
     border: 2px solid rgb(255, 255, 255);
     color: white;
   }
-
-
-
-
-
   
-
-  .btn2{
+  
+  
+  
+  .btn1{
     font-family: Arial, Helvetica, sans-serif ;
     font-weight: 100;
-    background-color: rgb(249, 249, 249);
-    border-radius: 35px;
-    padding: 2px 60px;
-    color: rgb(255, 0, 0);
-  
-    
-  }
-  
-  .btn2 {/*centar el boton*/
-    display: block;
-    margin: auto;
-  }
-  
-  .btn2:hover{
-    background-color: rgb(255, 55, 0);
-    border: 2px solid rgb(215, 204, 204);
-    color: rgb(238, 238, 238);
-  }
-
-
-
-
-
-
-
-  .btn3{
-    font-family: Arial, Helvetica, sans-serif ;
-    font-weight: 100;
-    background-color: rgb(140, 140, 140);
-    border-radius: 7px;
-    padding: 3px 60px;
-    color: white;
-  
-    
-  }
-  
-  .btn3 {/*centar el boton*/
-    display: block;
-    margin: auto;
-  }
-  
-  .btn3:hover{
-    background-color: rgb(109, 199, 207);
-    border: 2px solid rgb(19, 18, 18);
-    color: black;
-  }
-  
-
-
-
-
-  .btn4{
-    font-family: Arial, Helvetica, sans-serif ;
-    font-weight: 100;
-    background-color: rgb(255, 55, 0);
-    border-radius: 19px;
-    padding: 2px 60px;
-    color: white;
-  
-    
-  }
-  
-  .btn4{/*centar el boton*/
-    display: block;
-    margin: auto;
-  }
-  
-  .btn4:hover{
-    background-color: rgb(255, 0, 0);
-    border: 2px solid rgb(176, 97, 97);
-    color: rgb(170, 78, 78);
-  }
-
-
-
-
-  
-  .btn5{
-    font-family: Arial, Helvetica, sans-serif ;
-    font-weight: 100;
-    background-color: rgb(249, 249, 249);
+    background-color: rgb(255, 255, 255);
     border-radius: 18px;
     padding: 2px 60px;
-    color: white;
-  
+    color: black;
+    text-decoration: none;
     
   }
   
-  .btn5{/*centar el boton*/
-    display: block;
-    margin: auto;
-  }
   
-  .btn5:hover{
-    background-color: rgb(255, 255, 255);
-    border: 2px solid rgb(125, 108, 108);
+  
+  .btn1:hover{
+    background-color: rgb(147, 162, 168);
+    border: 2px solid rgb(239, 247, 244);
     color: white;
   }
+  
