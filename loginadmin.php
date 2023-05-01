@@ -5,7 +5,7 @@ $txtusuario=$_POST['txtusuario'];
 $txtpassword=$_POST['txtpassword'];
 
 //conectar a la base de datos
-$con=mysqli_connect("localhost", "root", "", "formulariosesion");
+$con=mysqli_connect("localhost", "rodri", "123", "formulariosesion");
 $consulta="SELECT * FROM formadmin WHERE correo= '$txtusuario' and contrasena='$txtpassword' ";
 $resultado=mysqli_query($con, $consulta);
 
