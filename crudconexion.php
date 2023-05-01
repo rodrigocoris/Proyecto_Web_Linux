@@ -1,8 +1,8 @@
 <?php
 function conectar(){
     $host="localhost";
-    $user="root";
-    $pass="";
+    $user="rodri";
+    $pass="123";
 
     $bd="formulariosesion";
 
